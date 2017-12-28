@@ -1,6 +1,9 @@
 #IMPORTANTE: Lembrando que os fatiamentos mais avançados (a partir do 2º) não funcionará nas chaves do format, apenas no valor passado dentro dos parênteses em format
 frase = 'Curso em Video Python'
 
+#Exemplo
+print(frase[begin:end:step])
+
 #Ele pega o caractere alocado na posição 9
 print(frase[9])
 
@@ -21,3 +24,9 @@ print(frase[15:])
 
 #Com 2 : seguidos começando pelo 9, ele vai até o fim da string (por não haver um digíto após 9:) pulando de 3 em 3, dev
 print(frase[9::3])
+
+# Dessa forma ele pega do início até o fim começando pelo último caractere, ou seja, string reverse (trás do início até o fim a string: RAFAEL - LEAFAR)
+print(frase[::-1])
+
+# OBS: Ao usar Django, se quiser que ele trás o último objeto cadastrado ao invés do 1º
+varList = ClassY.objects.all().order_by('-id')
