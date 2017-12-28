@@ -1,0 +1,58 @@
+1982: Guido Van Rossum
+	Intuito: Criar uma linguagem de programação que fosse interpretada mas tivesse comandos simples, fáceis de entender. Pois, pra ele, em C os comandos eram muitos grandes.
+	
+	De onde surgiu o nome: Monty Python's Flying Circus (Programa de TV favorito dele)
+	
+	Linguagem de propósito geral: Não é focada em uma determinada coisa. Ex: Java é algo para se desenvolver mais pra Android, R mais para estatísticas, C para desktop...
+	Simples, Fácil e Intuitivo: São em inglês mas todos já utilizam palavras em inglês (Facebook, whatsapp, PC, Game)
+	Multiplataforma: Do mesmo jeito que eu escrevo programas em python no linux ele funcionará da mesma forma no Mac, Windows, TV, celular
+	Batteries Included: Já vem com as baterias, em outras linguagens nem sempre vem com as bibliotecas incluídas, você tem que ficar instalando um monte de coisa, o PY já vem com muita coisa instalada, dá pra instalar mais, porém a maioria já vem.
+	Livre: Código aberto, faz parte de uma licença livre.
+	Organizada: Na hora de ler o código a posição precisa estar tudo certinho, identado.
+	Orientada a objetos: Tudo no python é um objeto, até uma simples variável.
+	Muitas bibliotecas: App pra celular, jogo, telinha de sistema
+	
+	Tem uma filosofia própria (Tim Peters): Zen of Python
+	
+Principais áreas:
+
+	Inteligência Artificial
+	Biotecnologia
+	Computação 3D
+	Machine Learning
+	
+Os crawlers do Google são feitos em Python
+
+Como funciona o Python?
+Conceitual:
+	Para entender como uma linguagem de programação funciona vamos propor um exemplo meio bobo. 
+	
+	Ex: Fingiremos que eu (Brasileiro), quero falar com outra pessoa, porém essa pessoa é Grega; Se eu disser: "bom dia" ela não entenderá, então, eu preciso pegar um dicionário pra procurar o bom dia na língua dele e falar, só que isso demoraria muito... A outra solução seria arrumar um intérprete que entenderia os dois idiomas: Português e Grego. O Intérprete basicamente "ouviria" meu bom dia, traduziria e passaria em grego para o destinatário, tenho que evitar a gíria porque não são todas que a intérprete entende, então deveria falar em um tom mais formal, vamos mudar a situação agora transformando o Grego em um Computador, só que no caso o computador entende apenas linguagem de máquina (Código Binário: 0, 1), esse intérprete é o meu interpretador (PYTHON), vai fazer essa ponte.
+	
+	
+A principal vantagem de usar o IDLE ao invés do terminal:
+
+	A colorização que ele fornece, o auto-complete que ele oferece em tooltip (O contexto, você vai digitando um comando e ele vai te ajudando), salvar os scripts .py
+	
+Porque pra escrever algo eu preciso de aspas simples ou compostas e pra números não?
+
+	Porque pra escrever mensagens o interpretador vai considerar textos, pra números vai considerar que você queira fazer algum cálculo.
+	
+	print('7'+'4') << Vai concatenar, retornar 74
+O + só funciona se eu pedir para somar do mesmo tipo. Ex: Caractere, Real, Inteiro. Se for tipos diferentes de variáveis, utilizar ,
+
+$ python
+	>>> nome  = 'Rafael'
+	>>> idade = 22
+	>>> peso  = 82
+	print(nome,idade,peso)
+	
+E se eu quiser que a variável receba o nome que o usuário vai digitar?
+$ python
+	>>> nome  = input('Qual é o seu nome? ') # Meu objeto nome recebe o valor da minha função input
+	>>> idade = input('Qual a sua idade ? ')
+	>>> peso  = input('Qual é o seu peso? ')
+	print(nome,idade,peso)
+	
+
+	

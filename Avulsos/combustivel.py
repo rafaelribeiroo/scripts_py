@@ -1,0 +1,8 @@
+print('Você pretende colocar quanto de combustível? ')
+c = float(input('R$ '))
+print('Qual o tipo? ')
+t = str(input('> '))
+print('Quanto está o lt. do {}?'.format(t))
+p = float(input('R$ '))
+lt = float(input('Seu automóvel faz quantos km/h com 1lt? '))
+print('Você pagará R${} pelo {} que está a R${}, ')
