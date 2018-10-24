@@ -1,10 +1,10 @@
 #53. Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
-#Ex: Apos a sopa
+# Ex: Apos a sopa
 f = str(input('Digite uma frase: ')).strip().upper()
 palavras = f.split()
 junto = ''.join(palavras)
 inverso = junto[::-1]
-#inverso = ''
+# inverso = ''
 # Começa no tamanho da string -1, se a string tiver 20 vai começar do 19
 # Vai até a posição -1
 # De -1 em -1 caractere

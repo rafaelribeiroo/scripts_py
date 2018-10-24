@@ -2,7 +2,7 @@
 from datetime import date
 atual = date.today().year
 menor, maior = 0, 0
-for cont in range(1, 7+1, 1):
+for cont in range(1, 7 + 1, 1):
     nascto = int(input('Em que ano a {}ª pessoa nasceu? '.format(cont)))
     # Se a idade for maior ou igual a 21 ela já é de maior
     if atual - nascto >= 21:
