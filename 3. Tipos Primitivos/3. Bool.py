@@ -1,3 +1,4 @@
-# Se o usuário digitar alguma coisa será verdadeiro, caso não, Falso
+# Se o usuário digitar alguma coisa a variavel será verdadeira;
+# Caso não, Falsa.
 n = bool(input('Digite um valor: '))
 print(n)

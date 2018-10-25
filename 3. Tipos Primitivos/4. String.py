@@ -1,3 +1,3 @@
-# Posso especificar que é str mas se não colocar nada será str também (Colocar input direto)
+# Independente do str antecedendo o input, sera str
 str = str(input('Digite algo: '))
 print(str)

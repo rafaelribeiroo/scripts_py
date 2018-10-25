@@ -9,7 +9,8 @@ s = n1 + n2
 m = n1 * n2
 # Dividir
 d = n1 / n2
-# Resto da Divisão, 2/5 é 3 certo? Mas o que sobra (pra continuar operação?), sobra 0
+# Resto da Divisão, 2/5 é 3 certo? Mas o que sobra pra continuar operação?
+# Sobra 0
 di = n1 // n2
 # Exponenciação
 e = n1 ** n2

@@ -1,14 +1,21 @@
-# Se os dados forem mensagem HÁ delimitadores, pode ser ' ou "
+# Abaixo, para exibir uma mensagem na tela, pode ser por meio de
+# aspas simples ou aspas compostas.
 print('Olá, mundo!')
 
-# Se forem números NÃO há
+# Se forem números NÃO há delimitadores.
 print(7 + 4)
 
-# Ele não fará a soma aqui pois como há delimitadores ele entende isso como uma mensagem e apenas concatena: transformando em 74
+'''
+Mas porque essa diferenca?
+    Mensagens: Sao utilizadas primordialmente para serem exibidas na tela
+    Numeros: Para fazer calculos
+'''
+
+# Como ha dois delimitadores, ele vai concatenar as strings, retornando 74
 print('7' + '4')
 
-# Se eu tentar printar apresentando mensagens e números com soma dará erro porque a soma apenas junta se forem ambos do mesmo tipo
-# print('Olá' + 5)
+# Abaixo dara erro, porque o + so funciona se ambos forem do mesmo tipo
+print('Ola' + 5)
 
-# Aqui dá certo mesmo sendo tipos diferentes porque foram separados com ,
+# Caso queira printar com tipos diferentes, tem que colocar a virgula
 print('Olá', 5)

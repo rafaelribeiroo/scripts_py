@@ -1,4 +1,7 @@
-# 2. Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas
+# 2. Faça um programa que leia o nome de uma pessoa e
+# mostre uma mensagem de boas-vindas
+import sys
+print(sys.version)
 nome = str(input('Qual o seu nome? '))
 dia = int(input('Qual o dia do seu aniversário, {}? '.format(nome)))
 mes = str(input('E o mês? '))

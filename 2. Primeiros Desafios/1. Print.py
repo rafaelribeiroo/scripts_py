@@ -1,7 +1,5 @@
-# 1. Faça um programa que mostre Olá Mundo
-# import os
+# 1. Faça um programa que mostre: 'Olá Mundo'
 nome = input('Digite seu nome: ')
-print('Boas-vindas', nome)  # Exibindo o nome pelo input
-# os.system('cls')
+print('Boas-vindas', nome)
 msg = 'Olá, Mundo!'
-print (msg)  # Exibindo o valor da variável
+print(msg)
