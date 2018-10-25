@@ -1,0 +1,54 @@
+Memorando: Não existem linguagens de programação melhores que as outras, existem linguagens que te atendem a determinadas necessidades.
+
+História da linguagem
+	1989: Guido van Rossum
+	Intuito: Criar uma linguagem de programação que fosse interpretada mas tivesse comandos simples, fáceis de entender. Pois, para ele, em C os comandos eram muito grandes.
+	Etimologia: Monty Python's Flying Circus (programa de TV favorito dele), pois no CWI (universidade que estudou), tinha um padrão em que todos os projetos internos eram nomeados com o título de um programa ou algo que remetesse a televisão, então quando a editora O'Reilly lançou o primeiro livro, eles colocaram a imagem de uma Píton, com isso o nome pegou.
+
+Python:
+	Linguagem de propósito geral: Não e focada em uma determinada coisa. Ex: Java é muito voltada para desenvolvimento local, android; PHP é voltado pra web;
+	Simples,
+		Fácil e
+			Intuitivo: São comandos em inglês, mas várias palavras conhecidas tambem são. Ex: game, pc, whatsapp;
+	Multiplataforma: Do mesmo jeito que eu escrevo programas em .py no linux, da mesma forma ele funcionará no mac e/ou windows;
+	Batteries Included: Nem tudo já vem "acoplado" em outras linguagens, então o programador perde um tempo. Já no python, ele já vem com muita coisa instalada (podendo ainda instalar mais), porém, com o que ele já vem, com a sua essência, já é o necessário que utilizaremos em nosso dia-a-dia;
+	Livre: Código aberto, faz parte de uma licença Livre;
+	Organizada: Na hora de escrever os algoritmos a posição precisa ser toda organizada, indentação;
+	Orientada a objetos: Tudo no python são objetos, até uma simples variável;
+	Muitas bibliotecas: App para celular, jogo, telinha de sistema;
+	Tem uma filosofia própria: Zen do Python, por Tim Peters.
+		>>> import this
+
+Principais áreas:
+	> Inteligência artificial;
+	> Biotecnologia;
+	> Computação 3D;
+	> Machine Learning.
+
+Curiosidade:
+	> Os crawlers do google são feitos em Python
+
+Como funciona o Python?
+
+	Ex: Fingiremos que eu (Brasileiro), quero falar com outra pessoa, porém essa pessoa é Grega; Se eu disser: "Bom Dia" ela não entenderá, então, temos duas soluções.
+		Solução Ineficiente: Eu preciso pegar um dicionário pra procurar o bom dia na língua dele e falar, só que isso demoraria muito...
+		Solução Eficiente: "Contratar" um intérprete que entenda os dois idiomas: Português e Grego. O Intérprete basicamente "ouviria" meu bom dia, traduziria e passaria em grego para o destinatário. Só teria que evitar a gíria porque não são todas que a intérprete entende, então deveria falar em um tom mais formal.
+	Vamos mudar a situação agora, replace('Grego', 'Computador'), só que no caso o computador entende apenas linguagem de máquina (Código Binário: 0, 1), esse intérprete é o meu interpretador (PYTHON), vai fazer essa ponte.
+
+Principal vantagem de usar IDLE ao invés do Terminal:
+	A colorização que ele fornece, o auto-complete que ele oferece em tooltip (o contexto, você vai digitando um comando e ele vai te ajudando), salvar os scripts.py
+
+Formas de rodar minha script PY:
+
+	1º IDLE: Se trata de uma IDE simples que já vem instalada no próprio Python, e que foi desenvolvida usando as bibliotecas nativas da linguagem;
+	2º PyCharm: IDE mais robusta por ter várias ferramentas interessantes para iniciantes e que facilitam o aprendizado;
+	3º Terminal: Considerada a mais prática e elegante em várias situações.
+		$ python <nome_script>.py
+		# ou
+		$ sudo chmod +x <nome_script>.py  # Torna executável
+		$ ./<nome_script>.py  # Torna executável
+
+
+Prática:
+
+    Verificar https://github.com/rafaelribeiroo/scripts_py/tree/master/2.%20Primeiros%20Desafios

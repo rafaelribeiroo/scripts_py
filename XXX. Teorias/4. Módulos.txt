@@ -1,0 +1,63 @@
+Vamos avançar ainda mais e colocar bibliotecas a mais do que já vem com a linguagem.
+
+	O Python trabalha a partir de pacotes/módulos.
+
+	IMPORTANTE:
+	> Um script .py é considerado como Módulo (mesmo que não seja importado)
+	> Um diretório é considerado como Pacote, quando este conta com a presença do arquivo: __init__.py (a partir do 3.3 não é mais necessário)
+		> Um pacote pode conter vários outros módulos, chamados Submódulos
+
+	Caso não identificamos os submódulos e pacotes existentes em nossos projetos com as devidas diretivas: __all__, __init__... Com um simples import meu-pacote esperamos que vasculhasse o sistema de arquivos inteiro, porém isso pode demorar muito fora os efeitos colaterais.
+		Solução: Autor do pacote fornecer um índice explícito do pacote ficando a cargo do autor do pacote manter essa lista atualizada.
+
+	Os arquivos __init__.py são especiais e servem para que o interpretador possa identificar quais diretórios são pacotes e quais não são.
+		Geralmente, no caso mais simples pode ser um arquivo vazio, porém, ele pode conter código de inicialização para o pacote ou definir a variável __all__
+
+	Analogia 1: Vamos supor que alguém da sua família comprou um carro popular, o que geralmente vem com menos recursos, mais básico; Mais pra frente, se o seu parente quiser incluir novos 'pacotes', novas ferramentas ele terá que importar, exemplo: direção hidráulica, vidro automático, ar-condicionado.
+	Analogia 2: Corpo humano, nosso corpo já vem com tudo do que precisamos para viver porém precisamos de 'bibliotecas', módulos para sobrevivermos, tais como: alimentação, bebida, e se quisermos também podemos nos servir doces.
+
+	Para importar no Python:
+
+		from pacote import módulo [Generalista]
+				e não
+		from pacote import * [Específico]
+
+		Pois explícito é melhor que implícito (Zen do PY)
+
+	DICA
+		Se eu referenciar como
+			import pacote
+		Preciso colocar o nome do pacote antes do módulo (Ex: random.choice)
+		Se eu identificar específico
+			from pacote import modulo
+		Apenas: choice()
+	FIM_DICA
+
+Python já vem com bibliotecas nativas para operações matemáticas, que é o caso de:
+
+	+ Soma
+	- Subtração
+	/ Divisão
+	* Multiplicação
+	// Divisão do Resto
+	** Exponenciação
+
+Agora, se eu quiser funcionalidades avançadas de matemática precisamos importar o math
+
+	import math
+		ceil: Arredondamento pra cima
+		floor: Arredondamento pra baixo
+		trun: Truncar o resultado
+		pow: Potência
+		sqrt: Calcular a raiz quadrada
+		factorial: Fatorial
+
+Para localizar as bibliotecas nativas do Python 3.6.x
+
+	http://python.org
+	Documentation > Python 3.x Docs > Library Reference
+
+
+Prática:
+
+	Verificar https://github.com/rafaelribeiroo/scripts_py/tree/master/8.%20Desafios%20M%C3%B3dulos
