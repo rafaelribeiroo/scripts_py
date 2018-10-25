@@ -1,10 +1,12 @@
-#33. Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
+# 33. Faça um programa que leia três números e mostre qual é o maior
+# e qual é o menor.
 n1 = int(input('Digite o 1º número: '))
 n2 = int(input('2º número: '))
 n3 = int(input('3º número: '))
 # Verificando quem é menor
 # Porque receber o primeiro input em uma variável que conterá o menor?
-# Nós poupamos um pouco o if, se for realmente o 1º deu sorte, caso contrário cairá nas demais condições dos outros if's
+# Nós poupamos um pouco o if, se for realmente o 1º. Deu sorte! Caso contrário,
+# cairá nas demais condições dos outros if's
 # Saber quando colocar algo fora da estrutura de condição é algo importante
 menor = n1
 if n2 < n1 and n2 < n3:

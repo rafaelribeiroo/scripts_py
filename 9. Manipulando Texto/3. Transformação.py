@@ -2,20 +2,21 @@ frase = 'Curso em Video Python'
 # Substituir o 1º parâmetro pelo 2º, Python por Android no caso
 # Lembrando que uma string é imútavel, então não posso usar:
 # frase[0] = 'J'
-# E o replace não altera a frase, se eu alterar e logo em baixo printar a frase novamente, vai vir a original (Sem Alterações)
-# Só valerá minha alteração se eu atribuir o método na variável. Ex: frase = frase.replace('Python', 'Android')
-print(frase.replace('Python','Android'))
-# Diferente do find, no find ele retornará a posição, aqui retornará True or False
+# O replace por si so, nao altera a palavra, temos que atribui-lo
+# a alguma variavel para isso
+print(frase.replace('Python', 'Android'))
+# Diferente do find, no find ele retornará a posição, aqui
+# retornará True or False
 # Mas, e se curso estivesse em lower case?
-# print(frase.lower().find('curso'))
+#     print(frase.lower().find('curso'))
 print('Curso' in frase)
-# Método Upper: Transforma todos os caracteres em CAIXA ALTA, o que já for maiúsculo ele mantém
+# Caixa alta
 print(frase.upper())
-# Método Lower: Contrário de upper, transforma todos em caixa baixa
+# Caixa baixa
 print(frase.lower())
-# Transforma tudo em lower e deixa apenas o primeiro caractere em upper
+# Apenas o primeiro caractere de cada frase em maiusculo
 print(frase.capitalize())
-# Onde tiver espaço ele fará uma quebra de palavras e em todo início de frase ele transforma em upper
+# Todo primeiro caractere de frase em maiusculo
 print(frase.title())
 
 # Nossos pais têm o hábito de ao preencher algum formulário ele não clica no
@@ -26,8 +27,8 @@ print(frase.title())
 n = input('Digite seu nome: ')
 # O strip elimina os espaços vagos inúteis no início e fim
 print(n.strip())
-# R de Right: Direita.
-# Muitas funcoes dentro do python que tratam strings tem a variação R (que começa a tratar pela Direita)
+# Muitas funcoes dentro do python que tratam strings tem a variação R, que
+# começa a tratar pela direita
 print(n.rstrip())
-# L de Left:  Esquerda.
+# Pela esquerda
 print(n.lstrip())

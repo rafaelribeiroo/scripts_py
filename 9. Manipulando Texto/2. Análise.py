@@ -1,12 +1,12 @@
 frase = 'Curso em Video Python'
-# len: Length (Comprimento), nesse caso temos 21 micro-espaços
+# length, nesse caso temos 21 micro-espaços
 print(len(frase))
-# count: Contar, Contador, nesse caso quantas x a letra O é citada na string
+# Quantos caracteres com o parametro informado
 print(frase.count('o'))
-# Contador já com o fatiamento, da posição 0 até a 13 (vídeO), quantas vezes tem o O? 1 só, lembrando que o último valor não entra pois é ignorado pelo PY
-print(frase.count('o',0,13))
-# Qual a posição (micro-espaço) que se encontra os caracteres 'deo'? Apenas onde começa, no caso: 11
-# find: Encontrar
+# Quantos caracteres com fatiamento (de X a Y)
+print(frase.count('o', 0, 13))
+# Vai buscar no indice qual o local que se encontra o parametro, o PY
+# retornara a posicao apenas do 1o caractere seguido pelo restante
 print(frase.find('deo'))
-# E se o parâmetro passado no find não existir? Ele te retornará a posição -1, de que não existe
+# Se o parametro nao for encontrado, ele retorna -1
 print(frase.find('Android'))

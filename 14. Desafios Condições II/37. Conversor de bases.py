@@ -1,4 +1,5 @@
-# 37. Escreva um programa que leia um número inteiro qualquer e peça para o usuário escolher qual será a base de conversão:
+# 37. Escreva um programa que leia um número inteiro qualquer e peça para o
+# usuário escolher qual será a base de conversão:
 # - 1 para binário
 # - 2 para octal
 # - 3 para hexadecimal
@@ -9,7 +10,8 @@ print('''Escolha uma das bases para conversão:
 [ 3 ] converter para HEXADECIMAL''')
 opcao = int(input('Sua opção: '))
 if opcao == 1:
-    # As 2ª primeiras posições não me interessam então não tem porque eu exibir, portanto eu corto elas logo após converter
+    # As 2ª primeiras posições não me interessam então não tem porque eu
+    # exibir, portanto eu corto elas logo após converter
     print('{} convertido para BINÁRIO é igual a {}'.format(num, bin(num)[2:]))
 elif opcao == 2:
     print('{} convertido para OCTAL é igual a {}'.format(num, oct(num)[2:]))

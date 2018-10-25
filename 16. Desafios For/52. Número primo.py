@@ -1,4 +1,5 @@
-# 52. Faça um programa que leia um número inteiro e diga se ele é ou não um número primo.
+# 52. Faça um programa que leia um número inteiro e diga se ele é ou
+# não um número primo.
 # Lembrando, se ele foi divisível 2x no máximo ele é primo.
 # Por 1 e por ele mesmo
 # Para IDLE:

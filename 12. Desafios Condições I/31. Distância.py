@@ -1,4 +1,6 @@
-#31. Desenvolva um programa que pergunte a distância de uma viagem em km. Calcule o preço da passagem, cobrando R$0,50 por km para viagens de até 200km e R$0,45 para viagens mais longas.
+# 31. Desenvolva um programa que pergunte a distância de uma viagem em km.
+# Calcule o preço da passagem, cobrando R$0,50 por km para viagens de até
+# 200km e R$0,45 para viagens mais longas.
 distancia = float(input('Qual é a distância da sua viagem? '))
 print('Você está prestes a começar uma viagem de {}km/h.'.format(distancia))
 # O python não possui operador ternário

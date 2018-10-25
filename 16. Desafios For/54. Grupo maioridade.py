@@ -1,4 +1,6 @@
-# 54. Crie um programa que leia o ano de nascimento de 7 pessoas. No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores.
+# 54. Crie um programa que leia o ano de nascimento de 7 pessoas. No final,
+# mostre quantas pessoas ainda não atingiram a maioridade e quantas
+# já são maiores.
 from datetime import date
 atual = date.today().year
 menor, maior = 0, 0

@@ -1,10 +1,11 @@
-# 4. Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele
+# 4. Faça um programa que leia algo pelo teclado e mostre na tela
+# o seu tipo primitivo e todas as informações possíveis sobre ele
 d = input('Digite algo: ')
-# Meu 'd' (variável) é um objeto e, por isso, tem características e realiza funcionalidades (atributos e métodos)
+# Minha var D é um objeto e, por isso, tem características e
+# realiza funcionalidades (atributos e métodos)
 print('O tipo primitivo desse valor é: ')
 print(type(d))
 print('')
-
 print('Só possui espaços em branco? ', d.isspace())
 print('É numérico? ', d.isnumeric())
 print('É alfabético? ', d.isalpha())

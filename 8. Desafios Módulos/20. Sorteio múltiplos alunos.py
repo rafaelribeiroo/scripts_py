@@ -1,4 +1,6 @@
-#20. O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
+# 20. O mesmo professor do desafio anterior quer sortear a ordem de
+# apresentação de trabalhos dos alunos. Faça um programa que leia o
+# nome dos quatro alunos e mostre a ordem sorteada.
 from random import sample  # shuffle
 a1 = input('1º aluno: ')
 a2 = input('2º aluno: ')

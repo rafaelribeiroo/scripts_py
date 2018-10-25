@@ -1,4 +1,6 @@
-#19. Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
+# 19. Um professor quer sortear um dos seus quatro alunos para apagar o quadro.
+# Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do
+# escolhido.
 from random import choice
 print('*' * 20)
 print('S O R T  E I O   DE   A L U N O S')

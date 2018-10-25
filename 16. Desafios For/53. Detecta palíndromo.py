@@ -1,4 +1,5 @@
-# 53. Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
+# 53. Crie um programa que leia uma frase qualquer e diga se ela é um
+# palíndromo, desconsiderando os espaços.
 # Ex: Apos a sopa
 f = str(input('Digite uma frase: ')).strip().upper()
 palavras = f.split()

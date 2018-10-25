@@ -1,4 +1,5 @@
-# 44. Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:
+# 44. Elabore um programa que calcule o valor a ser pago por um produto,
+# considerando o seu preço normal e condição de pagamento:
 # - À vista dinheiro/cheque: 10% de desconto
 # - À vista no cartão: 5% de desconto
 # - Em até 2x no cartão: preço normal
@@ -18,7 +19,9 @@ elif opcao == 2:
     ajuste = preco - (preco * 5) / 100
 elif opcao == 3:
     ajuste = preco
-    # Poderia ter atribuito o preco / 2 em ajustes? SIM! Mas, como criei uma mensagem genérica lá em baixo para tratar todos os elif, minha compra no final iria aparecer que o total seria apenas uma parcela
+    # Poderia ter atribuito o preco / 2 em ajustes? SIM! Mas, como
+    # criei uma mensagem genérica lá em baixo para tratar todos os elif,
+    # minha compra no final iria aparecer que o total seria apenas uma parcela
     parcelas = preco / 2
     print('A compra parcelada em 2x será o mesmo valor, pagando R${:.2f} a cada mês'.format(parcelas))
 elif opcao == 4:

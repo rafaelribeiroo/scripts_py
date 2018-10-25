@@ -1,4 +1,5 @@
-# 55. Faça um programa que leia o peso de 5 pessoas. No final, mostre qual foi o maior e o menor peso lidos.
+# 55. Faça um programa que leia o peso de 5 pessoas. No final, mostre
+# qual foi o maior e o menor peso lidos.
 maior = 0
 menor = 999999
 for c in range(1, 5 + 1, 1):

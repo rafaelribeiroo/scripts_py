@@ -1,4 +1,5 @@
-#8. Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
+# 8. Escreva um programa que leia um valor em metros e o exiba
+# convertido em centímetros e milímetros
 # Unidades de medida
 metros = float(input('Uma distância em metros: '))
 print('A medida de: {}m corresponde(m) a'.format(metros))

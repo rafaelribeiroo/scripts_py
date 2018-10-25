@@ -1,4 +1,5 @@
-# 13. Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
+# 13. Faça um algoritmo que leia o salário de um funcionário e
+# mostre seu novo salário, com 15% de aumento.
 salario = float(input('Digite o seu salário: '))
 qntde_aumento = int(input('Entre com a porcentagem de aumento: '))
 aumento = salario + (salario * qntde_aumento / 100)
