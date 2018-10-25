@@ -1,4 +1,5 @@
-# 9. Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+# 9. Faça um programa que leia um número Inteiro qualquer
+# e mostre na tela a sua tabuada.
 n = int(input('Digite um número: '))
 print('Tabuada do: {:-^20}'.format(n))
 print('*' * 11)
@@ -13,4 +14,5 @@ print('{} x {:2} = {}'.format(n, 8, n * 8))
 print('{} x {:2} = {}'.format(n, 9, n * 9))
 print('{} x {:2} = {}'.format(n, 10, n * 10))
 print('*' * 11)
-# O {:2} no centro é justamente para ficar alinhada as tabuadas quando o número informado chegar à 10ª multiplicação
+# O {:2} no centro é justamente para ficar alinhada as tabuadas
+# quando o número informado chegar à 10ª multiplicação
