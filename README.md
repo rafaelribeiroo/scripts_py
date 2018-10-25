@@ -1,6 +1,6 @@
 # Scripts Python
 
-Esse repositório consiste em seguir as aulas do Gustavo Guanabara (canal: curso em vídeo), bem como resolver mais de 100 exercícios utilizando a linguagem Python, abordando de uma forma geral todas as funcionalidades da linguagem.
+Esse repositório consiste em seguir as aulas do Gustavo Guanabara, do canal: "[Curso em Vídeo](https://www.youtube.com/user/cursosemvideo)", bem como resolver mais de 100 exercícios utilizando a linguagem Python, abordando de uma forma geral todas as funcionalidades da linguagem.
 
 ## Getting Started
 
