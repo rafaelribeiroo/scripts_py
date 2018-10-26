@@ -3,6 +3,8 @@
 r1 = float(input('1ª Segmento: '))
 r2 = float(input('2ª Segmento: '))
 r3 = float(input('3ª Segmento: '))
+# Para se formar um triângulo, o 1º segmento deve ser inferior
+# A soma dos demais, e assim sucessivamente.
 if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
     print('É um triângulo!')
 else:

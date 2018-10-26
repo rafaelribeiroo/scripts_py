@@ -5,6 +5,7 @@ Ex: Digite um número: 6.127
 O número 6.127 tem a parte Inteira 6
 '''
 from math import floor, trunc
+
 num = float(input('Digite um número: '))
 print('Serão três opções que podem obter o mesmo resultado')
 print('O número {} tem a porçao Inteira: '.format(num))

@@ -6,7 +6,7 @@ frase = 'Curso em Video Python'
 dividido = frase.split()
 # Primeiro item da lista
 print(dividido[0])
-# Primeiro item da lista com slice no 2 caractere, retorna r (comeca do 0)
+# Primeiro item da lista com slice no 2º caractere, retorna r (começa do 0)
 print(dividido[0][2])
 # E se eu quiser unir essa lista?
 juncao = '-'.join(dividido)

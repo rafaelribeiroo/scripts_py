@@ -7,7 +7,7 @@
 from datetime import date
 
 ano_atual = date.today().year
-sexo = input('Primeiramente, você é homem ou mulher? [h/m]').upper()
+sexo = input('Primeiramente, você é homem ou mulher? [H/M]').upper()
 
 if sexo == 'H':
     ano_nascto = int(input('Qual o ano de seu nascimento? '))

@@ -5,4 +5,4 @@ for n in range(2, 51, 2):
 print('Acabou!')
 # Outra forma: Caso o resto da divisão por 2 seja 0, printa meu número
 # O grande problema disso é que ele fará muitas repetições, o que gera mais
-# carga em meu processador então pra facilitar, basta
+# carga em meu processador.

@@ -1,7 +1,7 @@
 nome = input('Qual é seu nome? ')
 # Dentro das chaves:
-# :20 serve para abranger 20 espacos vagos (nunca slice)
-# = completar os espacos vagos com esse caractere, fora a var
+# :20 serve para abranger 20 espaços vagos (nunca slice)
+# = completar os espaços vagos com esse caractere, fora a var
 # ^ centraliza a var no meio dos =
 print('Prazer em te conhecer {:=^20}!'.format(nome))
 # Abaixo desloco meu nome ao final da linha, direita

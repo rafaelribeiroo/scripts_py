@@ -2,6 +2,7 @@
 # mostre quantas pessoas ainda não atingiram a maioridade e quantas
 # já são maiores.
 from datetime import date
+
 atual = date.today().year
 menor, maior = 0, 0
 for cont in range(1, 7 + 1, 1):

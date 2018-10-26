@@ -1,4 +1,4 @@
-# Posso agregar valores as minhas variáveis e exibi-las em conjunto
+# Posso agregar valores às minhas variáveis e exibi-las em conjunto
 # em um único print
 nome = 'Rafael'
 idade = 22

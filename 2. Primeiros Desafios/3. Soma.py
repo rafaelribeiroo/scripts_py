@@ -1,5 +1,5 @@
 # 3. Crie um programa que leia 2 números e mostre a soma entre eles.
-# Multiplicando o parametro string por 20
+# Multiplicando o parâmetro string por 20
 print('*' * 20)
 # Concatenando os 2 valores recebidos
 print('C O N C A T E N A Ç Ã O')

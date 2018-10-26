@@ -6,7 +6,3 @@ print('Você está prestes a começar uma viagem de {}km/h.'.format(distancia))
 # O python não possui operador ternário
 preco = distancia * 0.50 if distancia <= 200 else distancia * .045
 print('O valor da sua viagem será de R${:.2f}'.format(preco))
-'''if distancia <= 200:
-    preço = distancia*0.50
-else:
-    preço = distancia*0.45'''

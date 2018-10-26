@@ -3,7 +3,6 @@
 n1 = int(input('Digite o 1º número: '))
 n2 = int(input('2º número: '))
 n3 = int(input('3º número: '))
-# Verificando quem é menor
 # Porque receber o primeiro input em uma variável que conterá o menor?
 # Nós poupamos um pouco o if, se for realmente o 1º. Deu sorte! Caso contrário,
 # cairá nas demais condições dos outros if's
@@ -13,7 +12,7 @@ if n2 < n1 and n2 < n3:
     menor = n2
 if n3 < n1 and n3 < n2:
     menor = n3
-# Verificando quem é maior
+
 maior = n1
 if n2 > n1 and n2 > n3:
     maior = n2

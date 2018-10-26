@@ -3,5 +3,6 @@
 nota1 = float(input('Digite Sua 1ª nota: '))
 nota2 = float(input('2ª nota: '))
 # m = (nota1 + nota2) / 2
-# Regras Algébricas de Arredondamento quando insiro 1 casa após o ponto
+# Quando insiro 1 casa após o ponto o PY aplica as
+# Regras Algébricas de Arredondamento.
 print('Sua média foi: {:.1f}'.format((nota1 + nota2) / 2))

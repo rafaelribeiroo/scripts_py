@@ -4,8 +4,8 @@
 km = float(input('Qual a velocidade atual do carro? '))
 if km > 80:
     print('MULTADO! Você excedeu o limite permitido que é de 80km/h')
-    m = (km - 80) * 70
+    m = (km - 80) * 7
     print('Você deve pagar uma multa de R${:.2f}!'.format(m))
 else:
+    # Ou posso retirar do else e deixar sem condições, terá o mesmo resultado
     print('Tenha um bom dia! Dirija com segurança!')
-# Ou posso retirar do else e deixar sem condições, terá o mesmo resultado
