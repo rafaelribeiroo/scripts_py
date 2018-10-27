@@ -1,12 +1,9 @@
 Antes disso você aprendeu apenas a desviar das coisas (if/else), agora você aprenderá a repetir elas (for)
 
-	Analogia: Vamos imaginar um cenário onde o Mario queira chegar ao tubo de encanamento verde,
-	porém há oito blocos que ele precisa caminhar para chegar ao objetivo, para poupar ter que
-	dizer "Ande" oito vezes, podemos implementar um laço de repetição com VARIÁVEL DE CONTROLE
-	onde em uma única chamada: "Caminhar" ele dará o tanto de passos necessários para alcançar
-	qualquer objetivo.
+	Analogia: Vamos imaginar um cenário onde o Mario queira chegar ao tubo de encanamento verde, porém há oito blocos que ele precisa caminhar para chegar ao objetivo. Para poupar ter que	dizer: "Ande" oito vezes, podemos implementar um laço de repetição com VARIÁVEL DE CONTROLE	onde em uma única chamada: "Caminhar" ele dará o tanto de passos necessários para alcançar seu objetivo.
 
 Síntaxe:
+	# Laço tal no intervalo(1,10)
 	Laço contador in range(1,10)
 		contador: Variável de controle, pode ser apelidada com o que achar melhor;
 		for <contador> in range: Essa síntaxe o .PY solicita pra identificar que será um laço;
