@@ -13,7 +13,7 @@ Diferença?
     While: Estrutura de repetição com TESTE LÓGICO.
 
 Síntaxe:
-    # Enquanto não encamento verde
+    # Enquanto não yoshi:
     #     passo
     # pega
 
@@ -22,3 +22,10 @@ Síntaxe:
     pega
 
     Uso do enquanto aliado às condições:
+    Enquanto não Yoshi:
+    	Se tiver chão na frente:
+	    	passo
+	    Se tiver buraco:
+    		pule
+    	Se tiver moeda:
+	    	Pegue
