@@ -3,10 +3,7 @@
 # > A média de idade do grupo.
 # > Qual é o nome do homem mais velho.
 # > Quantas mulheres têm menos de 20 anos.
-soma_idade = 0
-médiaidade = 0
-maioridadehomem = 0
-totmulher20 = 0
+soma_idade, médiaidade, maioridadehomem, totmulher20 = 0, 0, 0, 0
 nomevelho = ''
 for p in range(1, 4 + 1, 1):
     print('-' * 5, '{}ª PESSOA'.format(p), '-' * 5)
