@@ -1,7 +1,5 @@
-#!/bin/bash
-echo 'Deploy GitHub'
-git add .
-echo 'Digite o commit abaixo: '
-read commit
-git commit -m ''$commit''
-git push
+#!/bin/bash  
+git add .  
+read -p "Commit description: " desc  
+git commit -m "$desc"
+git push origin master
