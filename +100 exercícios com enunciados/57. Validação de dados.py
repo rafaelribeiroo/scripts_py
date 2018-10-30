@@ -4,6 +4,7 @@
 sexo = ''
 sexo = str(input('Informe seu sexo: [M/F] ')).strip().upper()[0]
 # Enquanto sexo não estiver em Masculino nem Feminino
+# Isso só funciona com strings, com números não
 while sexo not in 'MmFf':
         sexo = str(
             input(
