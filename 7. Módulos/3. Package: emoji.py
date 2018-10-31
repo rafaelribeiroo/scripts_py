@@ -7,4 +7,5 @@
 # Para visualizar os pacotes adicionais instalados
 #     Pycharm: Preferences - Project - Project: Interpreter
 import emoji
+
 print(emoji.emojize('Olá, Mundo :earth_americas:', use_aliases=True))

@@ -2,6 +2,7 @@
 # apresentação de trabalhos dos alunos. Faça um programa que leia o
 # nome dos quatro alunos e mostre a ordem sorteada.
 from random import sample  # shuffle
+
 a1 = input('1º aluno: ')
 a2 = input('2º aluno: ')
 a3 = input('3º aluno: ')

@@ -5,6 +5,7 @@ print('{:^30}'.format('10 TERMOS DE UMA PA'))
 print('=' * 30)
 primeiro = int(input('Primeiro termo: '))
 razão = int(input('Razão: '))
+# Fórmula para calcular o enésimo termo de uma PA
 décimo = primeiro + (10 - 1) * razão
 # Vai começar do número que você decidiu
 # Pulando de quantos em quantos você informou
