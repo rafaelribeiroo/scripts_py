@@ -3,10 +3,10 @@
 # ele disser que quer mostrar 0 termos.
 pt = int(input('Primeiro termo: '))
 rz = int(input('Razão da PA: '))
-tm = 1
 dc = pt + (10) * rz
 while pt < dc:
     print(pt, end=' ')
     pt = pt + rz
-tm = int(input('\nQuer mostrar mais quantos termos?'))
-dc = pt + (tm) * rz
+    if pt >= dc:
+        tm = int(input('\nQuer mostrar mais quantos termos?'))
+        dc = pt + (tm) * rz
