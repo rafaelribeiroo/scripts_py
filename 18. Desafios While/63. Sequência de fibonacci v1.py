@@ -4,16 +4,18 @@
 print('-' * 25)
 print('Sequência de Fibonacci')
 print('-' * 25)
-fibo1 = fibonacci = 0
-fibo2 = termos = 1
+# 1o termo
+t1 = t3 = 0
+# 2o termo
+t2 = n = 1
 print('~' * 25)
-while termos != 0:
-    termos = int(input('Quantos termos você quer mostrar? '))
-    for fibo1 in range(0, termos):
-        fibo1 = fibo2
-        fibo2 = fibonacci
-        fibonacci = fibo1 + fibo2
-        print('{} → '.format(fibo2), end='')
+while n != 0:
+    n = int(input('Quantos termos você quer mostrar? '))
+    for t1 in range(0, n):
+        t1 = t2
+        t2 = t3
+        # Somar os dois termos anteriores pra obter o próximo
+        t3 = t1 + t2
+        print('{} → '.format(t2), end='')
     print('Fim')
 print('~' * 25)
-
