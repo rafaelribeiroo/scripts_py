@@ -1,11 +1,11 @@
 Analogia: Imaginemos a mesma situação hipotética do arquivo anterior:
-"8. ...", mas alteraremos o sujeito e o objetivo. Dessa vez o Luigi quer
+"08. ...", mas alteraremos o sujeito e o objetivo. Dessa vez o Luigi quer
 alcançar o ovo do Yoshi, mas ele não sabe quantos passos terá que dar
 para atingir seu objetivo; Na estrutura de repetição vista anteriormente,
 temos que informar até onde ele quer chegar (VARIÁVEL DE CONTROLE) para ele
 chegar ao devido objetivo. Mas, e quando não sabemos quantos passos dar?
 Pensando nisso, o PY possui outra estrutura de repetição, denominada: 'While'.
-Nesse caso, fazemos a chamada: "Enquanto não chegar ao Yoshi, não pare"
+Nesse caso, fazemos a seguinte chamada: "Enquanto não chegar ao Yoshi, não pare"
 
 Diferença?
 
@@ -29,3 +29,4 @@ Síntaxe:
     		pule
     	Se tiver moeda:
 	    	Pegue
+    Pega
