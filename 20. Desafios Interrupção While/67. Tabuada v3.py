@@ -3,10 +3,10 @@
 # número solicitado for negativo.
 while True:
     núm = int(input('Quer ver a tabuada de qual valor? '))
-    print('-' * 25)
     if núm < 0:
-        print('PROGRAMA TABUADA ENCERRADO. Volte sempre!')
         break
-    for c in range(0, 10 + 1):
-        print(f'{núm} x {c:>2} = {núm * c}')
-    print('-' * 25)
+    print('-' * 30)
+    for c in range(1, 10 + 1):
+        print(f'{núm} x {c:2} = {núm*c}')
+    print('-' * 30)
+print('PROGRAMA TABUADA ENCERRADO. Volte sempre!')
