@@ -8,7 +8,8 @@ Outra forma (melhor) de se usar o print:
 
     print('A soma vale: ', num1 + num2)
     # ou
-    print('A soma vale: ', soma)  # Caso eu tenha atribuído a soma na variável: 'soma'
+    print('A soma vale: ', soma)  # Caso eu tenha atribuído a soma
+    na variável: 'soma'
 
     POR:
     print('A soma vale {}'.format(soma))
@@ -47,7 +48,9 @@ Outros exemplos de tipo primitivo:
 
     n = input('Digite algo: ')
     print(n.isnumeric())
-    # Já sabemos que se não definirmos o tipo primitivo antes do input, ele será str. Porém, com esse método ele vai dizer se é possível converter esse valor que digitei em um número com o tipo primitivo int antes dele.
+    # Já sabemos que se não definirmos o tipo primitivo antes do input, ele será
+    str. Porém, com esse método ele vai dizer se é possível converter esse valor
+    que digitei em um número com o tipo primitivo int antes dele.
 
 
 Prática:

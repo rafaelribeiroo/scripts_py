@@ -8,7 +8,8 @@ Além da soma que já vimos anteriormente, temos também:
     // Divisão inteira
     % Resto da divisão
 
-    Toda operação aritmética precisa de um operando, que pode ser: um número/uma string/variáveis.
+    Toda operação aritmética precisa de um operando, que pode ser: um número/
+    uma string/variáveis.
     Esses operadores acima são binários, ou seja, precisam de 2 operandos.
 
 Memorando:
@@ -40,8 +41,10 @@ Expressões:
     3 * 5 + 4 ** 2 = 31
     3 * (5 + 4) ** 2 = 243
 
-Interessante sobre a linguagem: Para cálculos científicos que precisam de números muito grandes, algumas linguagens tem limites para tamanho.
-    Ex: No Java há um limite para tamanho, se exceder tem que utilizar o long (que também tem um limite e pode estourar);
+Interessante sobre a linguagem: Para cálculos científicos que precisam de
+números muito grandes, algumas linguagens tem limites para tamanho.
+    Ex: No Java há um limite para tamanho, se exceder tem que utilizar o long
+    (que também tem um limite e pode estourar);
     No python o limite é a memória
 
 A alternativa para os caracteres especiais são as funções nativas do PYTHON

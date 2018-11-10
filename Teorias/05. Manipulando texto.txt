@@ -1,11 +1,14 @@
 String (cadeia de caracteres): 'Rafael Ribeiro'
-    O PY usa aspas simples ou duplas para exibir uma mensagem através de uma string.
 
 Ex:
     frase = 'Curso em Vídeo Python'
     # Atribuição de uma string dentro da variável
 
-    Atrás dos bastidores: Quando atribuo essa string, o python pega ela e armazena na memória do computador, só que ela não vai inteira (completa do jeito que vemos), ele cria mini-espaços dentro da memória do computador, e em cada 'espacinho', ele coloca um caractere. Eles são numerados por meio de um índice para seguir a nomenclatura correta e não alterar a sequência.
+    Atrás dos bastidores: Quando atribuo essa string, o python pega ela e
+    armazena na memória do computador, só que ela não vai inteira (completa
+    do jeito que vemos), ele cria mini-espaços dentro da memória do computador,
+    e em cada 'espacinho', ele coloca um caractere. Eles são numerados por meio
+    de um índice para seguir a nomenclatura correta e não alterar a sequência.
     C: 1
     u: 2
     r: 3
@@ -28,7 +31,8 @@ Ex:
     o: 20
     n: 21
 
-    Ao tratar a cadeia de caracteres dessa maneira, fica muito fácil fazer operações com esse tipo.
+    Ao tratar a cadeia de caracteres dessa maneira, fica muito fácil fazer
+    operações com esse tipo.
 
 Fatiamento:
 Fatiar uma string é conseguir pegar pedaços dela.
@@ -36,7 +40,8 @@ Fatiar uma string é conseguir pegar pedaços dela.
     frase[9]  # Pega o caractere na 9ª posição
     frase[9:13]  # Da 9ª posição até a 13ª
 
-    Importante: Quando estou trabalhando com fatiamento de string, o último valor não entra (é ignorado pelo PY)
+    Importante: Quando estou trabalhando com fatiamento de string, o último
+    valor não entra (é ignorado pelo PY)
 
     # E se pegar um além da cadeia?
     frase [9:22]  # Ele vai até o último e para
@@ -47,39 +52,62 @@ Fatiar uma string é conseguir pegar pedaços dela.
     frase [9::3]  # Do caractere 9 até o último, pulando de 3 em 3
 
 Análise:
-Tudo no PY é objeto, tudo que eu especifico posso atribuir métodos a partir de ponto (.)
+Tudo no PY é objeto, tudo que eu especifico posso atribuir métodos a partir de
+ponto (.)
     Ex
     print(frase.upper().count('o'))
 
-    len(frase)  # Quantos caracteres (mini-espaços)
-    frase.count('o')  # Quantos caracteres com o parâmetro informado
-    frase.count('o', 0, 13)  # Quantos caracteres com fatiamento
-    frase.find('Python')  # Vai buscar no índice qual o local que se encontra o parâmetro, o PY retornará a posição do caractere seguido pelo restante
-    frase.find('Na!$')  # Caso não exista, retorna -1
+    # Quantos caracteres (mini-espaços)
+    len(frase)
+    # Quantos caracteres com o parâmetro informado
+    frase.count('o')
+    # Quantos caracteres com fatiamento
+    frase.count('o', 0, 13)
+    # Vai buscar no índice qual o local que se encontra o parâmetro, o PY
+    retornará a posição do caractere seguido pelo restante
+    frase.find('Python')
+    # Caso não exista, retorna -1
+    frase.find('Na!$')
 
 Transformação:
 Substituir string
-    Ex
-    frase.replace('Python', 'Android')  # Substitui o 1º parâmetro pelo 2º
+    Ex:
+    # Substitui o 1º parâmetro pelo 2º
+    frase.replace('Python', 'Android')
 
-    Importante: Uma string é imútavel, então não posso alterar um caractere (frase[0] = 'J'), e o replace não modifica totalmente, apenas se eu atribuir a modificação a variável.
-        frase = frase.replace('Python', 'Android')
+    Importante: Uma string é imútavel, então não posso alterar um caractere
+    (frase[0] = 'J'), e o replace não modifica totalmente, apenas se eu
+    atribuir a modificação a uma variável.
+        Ex > frase = frase.replace('Python', 'Android')
 
-    print('Curso' in frase)  # Diferente do find q retorna a posição, aqui é 0 ou 1 (boolean), sem diferenciação de Camel Case passar o método .lower antecedendo
-    frase.upper()  # Uppercase
-    frase.lower()  # Lowercase
-    frase.capitalize()  # Apenas o 1º caractere em upper
-    frase.title()  # Toda palavra começa em upper
+    # Diferente do find q retorna a posição, aqui é 0 ou 1 (boolean), sem
+    diferenciação de Camel Case passar o método .lower antecedendo
+    print('Curso' in frase)
+    # Uppercase
+    frase.upper()
+    # Lowercase
+    frase.lower()
+    # Apenas o 1º caractere em upper
+    frase.capitalize()
+    # Toda palavra começa em upper
+    frase.title()
 
-    Fato: Quando algumas pessoas vão preencher algum form, elas clicam no input e pressiona o space algumas vezes pra ver se funciona, python tem métodos para eliminar esses espaços vagos inúteis.
+    Fato: Quando algumas pessoas vão preencher algum form, elas clicam no input
+    e pressiona o space algumas vezes pra ver se funciona, python tem métodos
+    para eliminar esses espaços vagos inúteis.
 
-    frase.strip()  # Elimina espaço do início ao fim
-    frase.rstrip()  # Muitas funções internas que tratam strings tem a variação R (tratar pela direita)
-    frase.lstrip()  # Tratar pela esquerda
+    # Elimina espaço do início ao fim
+    frase.strip()
+    # Muitas funções internas que tratam strings tem a variação R (tratar
+    pela direita)
+    frase.rstrip()
+    # Tratar pela esquerda
+    frase.lstrip()
 
 Divisão e Junção:
-O Strip visto anteriormente quebra espaço vago do início e do fim, mas. E no meio? SPLIT
-    Ex
+O Strip visto anteriormente quebra espaço vago do início e do fim, mas.
+E no meio? SPLIT
+    Ex:
     juncao = '-'.join(frase_com_split)  # Une os itens da lista separando por -
 
 
