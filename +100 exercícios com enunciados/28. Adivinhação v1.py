@@ -15,4 +15,4 @@ a = int(input('Em que número eu pensei? '))
 print('Aguarde... Processando')
 # Faz o interpretador esperar 2 segundos
 sleep(2)
-print('> Parabéns, você conseguiu me vencer!' if a==n else '> Ganhei, eu pensei no número {} e não no {}!'.format(n, a))
+print('> Parabéns, você conseguiu me vencer!' if a == n else '> Ganhei, eu pensei no número {} e não no {}!'.format(n, a))
