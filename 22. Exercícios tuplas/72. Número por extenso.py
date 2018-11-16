@@ -8,9 +8,10 @@ cont = (
     'onze', 'doze', 'treze', 'catorze', 'quinze',
     'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte',
 )
-while True:
+resp = ''
+while resp in 'Ss':
     núm = int(input('Digite um número entre 0 e 20: '))
-    if 0 <= núm <= 20:
-        break
-    print('Tente novamente. ', end='')
-print('Você digitou o número {}'.format(cont[núm]))
+    while núm < 0 or núm > 20:
+        núm = int(input('Tente novamente: '))
+    print('Você digitou o número {}'.format(cont[núm]))
+    resp = str(input('Deseja prosseguir? ')).strip()[0]

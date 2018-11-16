@@ -13,7 +13,9 @@ lista = (
 )
 maior = lista[0]
 menor = lista[0]
-print(f'Os números sorteados são: {lista}')
+print('Os números sorteados são: ', end='')
+for c in lista:
+    print(f'{c}', end=' ')
 if lista[1] > maior:
     maior = lista[1]
 if lista[2] > maior:
@@ -31,5 +33,5 @@ if lista[3] < menor:
     menor = lista[3]
 if lista[4] < menor:
     menor = lista[4]
-print(f'O maior é {maior}')
+print(f'\nO maior é {maior}')
 print(f'O menor é {menor}')
