@@ -4,34 +4,17 @@
 # menor e o maior valor que estão na tupla.
 from random import randint
 
-lista = (
+números = (
     randint(1, 10),
     randint(1, 10),
     randint(1, 10),
     randint(1, 10),
     randint(1, 10),
 )
-maior = lista[0]
-menor = lista[0]
-print('Os números sorteados são: ', end='')
-for c in lista:
-    print(f'{c}', end=' ')
-if lista[1] > maior:
-    maior = lista[1]
-if lista[2] > maior:
-    maior = lista[2]
-if lista[3] > maior:
-    maior = lista[3]
-if lista[4] > maior:
-    maior = lista[4]
-
-if lista[1] < menor:
-    menor = lista[1]
-if lista[2] < menor:
-    menor = lista[2]
-if lista[3] < menor:
-    menor = lista[3]
-if lista[4] < menor:
-    menor = lista[4]
-print(f'\nO maior é {maior}')
-print(f'O menor é {menor}')
+print('Os valores sorteados foram: ', end='')
+for num in números:
+    print(f'{num} ', end='')
+# o PY tem uma facilidade, ele trabalha com os métodos específicos das tuplas
+# max e min. Inclusive, pode ser utilizado em outros locais também.
+print(f'\nO maior valor sorteado foi {max(números)}')
+print(f'O menor valor sorteado foi {min(números)}')
