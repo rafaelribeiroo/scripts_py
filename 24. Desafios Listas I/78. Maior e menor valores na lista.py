@@ -6,4 +6,4 @@ for num in range(0, 5):
     números.append(int(input(f'Digite um valor para a Posição {num}: ')))
 print('=-' * 30)
 print(f'Você digitou os valores {números}')
-print(f'O maior valor digitado foi {max(números)} nas posições', end=' ')
+print(f'O maior valor digitado foi {max(números)} nas posições {números.index(max(números))+1}', end=' ')
