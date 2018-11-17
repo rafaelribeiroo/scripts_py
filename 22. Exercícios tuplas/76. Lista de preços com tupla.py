@@ -3,16 +3,24 @@
 # No final, mostre uma listagem de preços, organizando os dados em forma
 # tabular.
 listagem = (
-    'Heineken', 4.39,
-    'Glacial', 1.00,
-    'Bavaria', 2.50,
-    'Stella Artois', 5.20,
+    'Lápis', 1.75,
+    'Borracha', 2,
+    'Caderno', 15.90,
+    'Estojo', 25,
+    'Transferidor', 4.20,
+    'Compasso', 9.99,
+    'Mochila', 120.32,
+    'Canetas', 22.30,
+    'Livro', 34.90
 )
 print('-' * 30)
 print('{:^30}'.format(' LISTAGEM DE PREÇOS '))
 print('-' * 30)
-str_listagem = listagem[::2]
-int_listagem = listagem[1::2]
-for c in range(0, 4):
-    print(f'{str_listagem[c]:.<23}R${int_listagem[c]:>5}')
+for pos in range(0, len(listagem)):
+    if pos % 2 == 0:
+        print(f'{listagem[pos]:.<21}', end='')
+    else:
+        # Provando que há forma de abranger o espaçamento da var
+        # definindo quantas casas após o ponto
+        print(f'R${listagem[pos]:>7.2f}')
 print('-' * 30)

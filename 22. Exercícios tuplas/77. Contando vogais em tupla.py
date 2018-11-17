@@ -3,17 +3,13 @@
 # são as suas vogais.
 palavras = (
     'aprender', 'programar', 'linguagem', 'python',
-    'curso', 'gratis', 'estudar', 'praticar',
+    'curso', 'grátis', 'estudar', 'praticar',
     'trabalhar', 'mercado', 'programador', 'futuro'
 )
-print(f'Na palavra {palavras[0].upper()} temos')
-while 'a' in palavras[0]:
-	print('a')
-while 'e' in palavras[0]:
-	print('e')
-while 'i' in palavras[0]:
-	print('i')
-while 'o' in palavras[0]:
-	print('o')
-while 'u' in palavras[0]:
-	print('u')
+for p in palavras:
+    print(f'\nNa palavra {p.upper()} temos ', end='')
+    # Nosso for acima é de palavra em palavra
+    # Aqui pegamos a palavra e damos um loop para obter os caracteres
+    for letra in p:
+        if letra.lower() in 'aáeiou':
+            print(letra, end=' ')
