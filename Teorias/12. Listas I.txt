@@ -1,0 +1,55 @@
+Recapitulando: Vimos anteriormente, que as TUPLAS são de extrema importância
+para armazenar diversos elementos. Sua principal peculiaridade é que são
+IMUTÁVEIS.
+
+Para tratarmos sobre as listas, dividiremos em dois capítulos, já que a gama
+de utilização das listas é bem ampla.
+    TUPLAS ()
+    LISTAS []
+
+> Na lista definimos também uma série de strings/números para uma mesma var
+Ex: var lanche
+    hambúrguer  suco    pizza   pudim
+        0        1        2       3
+
+> A diferença é que as listas são MUTÁVEIS. Ou seja, posso aplicar a
+alteração abaixo:
+    lanche[3] = 'picolé'
+
+> Já que são mutáveis, podemos também INCLUIR mais alguns elementos ao nosso
+lanche:
+    lanche.append('cookie')
+    # Com isso, nossa variável composta terá também uma posição 4
+
+    # Podemos também falar onde nosso elemento será adicionado
+    lanche.insert(0, 'cookie')
+    # E nosso cookie vai pra 5ª posição
+
+> Temos três formas de APAGAR um elemento de nossa LISTA. Quando apagamos o PY
+refaz nossa lista definindo os novos índices aos elementos.
+    # Apaga nossa pizza pelo índice
+    del lanche[3]
+    # O pop é mais utilizado sem informar parâmetros, o que faz com que ele
+    # apague o último valor de nossa lista, mas serve da forma abaixo também,
+    # que apagará o elemento alocado no índice 3
+    lanche.pop(3)
+    # Agora, se quisermos excluir pelo valor e não pelo índice
+    lanche.remove('pizza')
+
+    # Se tentarmos remover um elemento/índice que não exista vamos nos deparar
+    # com um erro, mas para contornar é bem simples.
+    if 'pizza' in lanche:
+        lanche.remove('pizza')
+
+    # Para criar uma lista ordenada do 4 ao 10 com FOR:
+    valores = list(range(4, 11)) # DO 4 AO 10
+        # E de forma desordenada
+        valores = [8, 2, 5, 4, 9, 3, 0]
+        # Para ordenar:
+        valores.sort()
+        # Ordenar de trás pra frente
+        valores.sort(reverse=True)
+
+    # Saber quantos elementos têm:
+    valores = [8, 2, 5, 4, 9, 3, 0]
+    len(valores)  # 7
