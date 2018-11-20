@@ -6,8 +6,8 @@ valores.append(4)'''
 for cont in range(0, 5):
     valores.append(int(input('Digite um valor: ')))
 
-#for elemento in valores:
-#    print(f'{elemento}...', end='')
+# for elemento in valores:
+#     print(f'{elemento}...', end='')
 
 # O enumerate pega tanto o índice quanto o elemento
 for c, v in enumerate(valores):
