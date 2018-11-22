@@ -4,10 +4,13 @@
 # digitados, em ordem crescente.
 valores = list()
 resp = 'S'
-c = 0
 while resp == 'S':
     valores.append(int(input('Digite um valor: ')))
     resp = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
-    c += 1
+    for i, v in enumerate(valores):
+        if i == 0:
+            pass
+        else:
+            if v == valores[i]:
+                print('Valor duplicado! Não vou adicionar...')
 print('-=' * 20)
-print(f'Você digitou os valores {valores}')
