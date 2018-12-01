@@ -1,15 +1,3 @@
-'''Adicional noturno
-turno = str(input('Em qual turno você trabalha? [Manhã] ')).lower().strip()[:3]
-while turno != 'man' and turno != 'tar' and turno != 'noi' and turno != 'mad':
-    turno = str(input('Opção inválida, tente novamente: ')).lower().strip()[:3]
-    if turno in 'man':  # Manhã
-        adc_noturno = 0
-    elif turno in 'tar':  # Tarde
-        adc_noturno = 0
-    elif turno in 'noi':  # Noite
-        adc_noturno = 1
-    elif turno in 'mad':  # Madrugada
-        adc_noturno = 1'''
 from time import sleep
 
 # Altere os preços aqui, para não ter que mudar em 30 variáveis diferentes
@@ -22,9 +10,9 @@ exame_simples = exame_especial = total_exame = 0.00
 terapia = 0.00
 
 # Apenas se o usuário selecionar, incrementará com o valor adequado
-odontoprev = interodonto = gamalu = pat = sindicato = transporte = 0.00
+odontoprev = interodonto = gamalu = pat = sindicato = transporte = trans_hb = 0.00
 
-cont1 = cont2 = cont3 = cont4 = cont5 = 0
+cont1 = cont2 = cont3 = cont4 = cont5 = cont6 = 0
 
 print('*' * 6, 'Simulador de cálculo salarial', '*' * 6, end='\n\n')
 sal = float(input('Salário bruto [. pros centavos]: '))
@@ -83,6 +71,7 @@ while True:
     [  6 ] PAT - Lei 6.321/76
     [  7 ] O que significa a opção 6?
     [  8 ] Vale transporte
+    [  9 ] Estacionamento Agabê
     ''')
     benefícios = int(input('Digite um de cada vez: '))
     if benefícios < 0:
@@ -210,6 +199,23 @@ em seu navegador: https://www.youtube.com/watch?v=z11hu8n1phI''')
             print('Você já selecionou esse convênio anteriormente.')
             sleep(3)
         print(f'\nO desconto do transporte é de {transporte:.2f}')
+        sleep(3)
+
+    elif benefícios == 9:
+        cont6 += 1
+        print('Você vem de moto ou carro?', end=' ')
+        escolha = str(input('')).upper().strip()[0]
+        if cont6 == 1:
+            if escolha == 'M':
+                trans_hb = 25.00
+            elif escolha == 'C':
+                trans_hb = 70.00
+            else:
+                print('Veículo não compreensível')
+        else:
+            print('Você já selecionou esse convênio anteriormente.')
+            sleep(3)
+        print(f'\nO desconto do estacionamento é de {trans_hb:.2f}')
         sleep(3)
 
 print('\nAdm de Pessoal (Saldo banco de horas) → Nesse programa, vou considerar suas HE como 60%')
