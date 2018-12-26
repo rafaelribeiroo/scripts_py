@@ -141,6 +141,7 @@ while True:
                     elif tipo_exame == 2:
                         exame_especial += 113.00
                 if exame_simples + exame_especial >= 175.00:
+                    exame_simples = exame_especial = 0.00
                     total_exame = 175.00
 
             # If terapias realizadas
@@ -151,8 +152,7 @@ while True:
         else:
             print('Você já selecionou esse convênio anteriormente.')
             sleep(3)
-        somatório = unimed + consulta_consultorio + consulta_prontosocorro + exame_simples + exame_especial + total_exame + terapia
-        print(f'\nO desconto total da unimed é de {somatório:.2f}')
+        print(f'\nO desconto total da unimed é de {unimed + consulta_consultorio + consulta_prontosocorro + exame_simples + exame_especial + total_exame + terapia:.2f}')
         sleep(3)
 
     # Condição pronta
