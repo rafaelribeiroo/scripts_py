@@ -152,7 +152,8 @@ while True:
         else:
             print('Você já selecionou esse convênio anteriormente.')
             sleep(3)
-        print(f'\nO desconto total da unimed é de {unimed + consulta_consultorio + consulta_prontosocorro + exame_simples + exame_especial + total_exame + terapia:.2f}')
+        somatório = unimed + consulta_consultorio + consulta_prontosocorro + exame_simples + exame_especial + total_exame + terapia
+        print(f'\nO desconto total da unimed é de {somatório:.2f}')
         sleep(3)
 
     # Condição pronta
