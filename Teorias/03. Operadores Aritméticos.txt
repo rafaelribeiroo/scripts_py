@@ -1,3 +1,5 @@
+Priori: = Atribuição/== Igual
+
 Além da soma que já vimos anteriormente, temos também:
 
     + Adição
@@ -8,13 +10,10 @@ Além da soma que já vimos anteriormente, temos também:
     // Divisão inteira
     % Resto da divisão
 
-    Toda operação aritmética precisa de um operando, que pode ser: um número/
-    uma string/variáveis.
-    Esses operadores acima são binários, ou seja, precisam de 2 operandos.
+Toda operação aritmética precisa de um operando, que pode ser: um número/
+uma string/variáveis.
+Esses operadores acima são binários, ou seja, precisam de 2 operandos.
 
-Memorando:
-= Atribuição
-== Atribuição
 
     Na mesma ordem:
     5 + 2 = 7
@@ -28,29 +27,23 @@ Memorando:
     5 // 2 = 2 (quociente acima)
     5 % 2 = 1 (resto acima)
 
-Ordem de precedência:
+Ordem de precedência:           Expressões:
 
-    1. () Parêntesis
-    2. ** Potência
-    3. * / // %
+    1. () Parêntesis            5 + 3 * 2 = 11
+    2. ** Potência              3 * 5 + 4 ** 2 = 31
+    3. * / // %                 3 * (5 + 4) ** 2 = 243
     4. + -
-
-Expressões:
-
-    5 + 3 * 2 = 11
-    3 * 5 + 4 ** 2 = 31
-    3 * (5 + 4) ** 2 = 243
 
 Interessante sobre a linguagem: Para cálculos científicos que precisam de
 números muito grandes, algumas linguagens tem limites para tamanho.
-    Ex: No Java há um limite para tamanho, se exceder tem que utilizar o long
-    (que também tem um limite e pode estourar);
-    No python o limite é a memória
+Ex: No Java há um limite para tamanho, se exceder tem que utilizar o long
+(que também tem um limite e pode estourar);
+    No PY o limite é a memória
 
 A alternativa para os caracteres especiais são as funções nativas do PYTHON
 
     pow(4, 3)
-        Potência 4³ elevado ao cubo
+        Potência 4³ (elevada ao cubo)
 
     E a raíz quadrada?
     # É a mesma coisa que criar a potência dele por meio
@@ -62,8 +55,3 @@ A alternativa para os caracteres especiais são as funções nativas do PYTHON
 Brincando no shell
 >>> 'Oi' * 5
 >>> '=' * 5
-
-
-Prática:
-
-    Verificar https://github.com/rafaelribeiroo/scripts_py/tree/master/6.%20Desafios%20Aritm%C3%A9ticos

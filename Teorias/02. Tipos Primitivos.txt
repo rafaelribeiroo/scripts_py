@@ -1,8 +1,9 @@
-4 Principais
-    int: 7, -4, 0, 9875
-    float: 4.5, 0.076, -15.1, 7.0
-    bool: True, False
-    str: 'Olá', '7.5', ''
+Principais tipos primitivos
+
+    int → 7, -4, 0, 9875
+    float → 4.5, 0.076, -15.1, 7.0
+    bool → True, False
+    str → 'Olá', '7.5', ''
 
 Outra forma (melhor) de se usar o print:
 
@@ -51,8 +52,3 @@ Outros exemplos de tipo primitivo:
     # Já sabemos que se não definirmos o tipo primitivo antes do input, ele será
     str. Porém, com esse método ele vai dizer se é possível converter esse valor
     que digitei em um número com o tipo primitivo int antes dele.
-
-
-Prática:
-
-    Verificar https://github.com/rafaelribeiroo/scripts_py/tree/master/4.%20Desafios%20Primitivos
