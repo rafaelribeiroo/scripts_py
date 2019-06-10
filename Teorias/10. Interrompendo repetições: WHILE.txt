@@ -6,7 +6,7 @@ Analogia para compreensão
     Não havíamos visto essa funcionalidade previamente porque ela
     necessitava de uma analogia própria por ser tão importante.
 
-Síntaxe:
+Síntaxe
 
 while True:
     if chão:

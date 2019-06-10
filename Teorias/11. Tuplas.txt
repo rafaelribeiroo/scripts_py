@@ -1,16 +1,13 @@
-Variáveis compostas (tuplas)
+Em PY existem 3 tipos de variáveis compostas:
+    → Tuplas;
+    → Listas;
+    → Dicionários.
 
-Em PY existem 3 tipos:
-    > Tuplas;
-    > Listas;
-    > Dicionários.
-Porém, para melhor aprendizado.. Vamos dividir cada tipo em um arquivo.
+Teoria
 
-Teoria:
+    Ao atribuir/fornecer um valor à alguma variável, definimos dessa forma:
+        > lanche = 'hambúrguer'
 
-    Quando vamos atribuir/fornecer um valor à alguma variável, definimos
-    dessa forma:
-        lanche = hambúrguer
     Mas, e se nosso lanche incluir um suco também? Se definirmos a var lanche
     recebendo o suco, ele vai eliminar o hambúrguer. Pensando nisso, o PY nos
     oferece uma forma de atribuir dois ou mais valores a uma mesma variável.

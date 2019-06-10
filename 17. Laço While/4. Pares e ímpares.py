@@ -1,14 +1,17 @@
+# Precisamos atribuir qualquer valor aqui que seja diferente de 0, porque na
+# chamada do while, definimos que enquanto for diferente de 0, vai rodar.
 n = 1
-par = impar = 0
+par = ímpar = 0
+
 # Enquanto n for diferente de 0, faça:
 while n != 0:
     n = int(input('Digite um valor: '))
-    # O 0 é só para saída do programa, o IF é para
-    # não contar ele.
+    # Se for zero, saia do loop. Se for válido...
     if n != 0:
-        # Se o resto da divisão por 2 for igual a 0, PAR
+        # Resto da divisão é igual a 0? Então temos um número par
         if n % 2 == 0:
             par += 1
+        # É igual a 1? Número ímpar
         else:
-            impar += 1
-print('Você digitou {} números pares e {} números ímpares!'.format(par, impar))
+            ímpar += 1
+print('Contamos {} números pares e {} ímpares'.format(par, ímpar))

@@ -1,14 +1,12 @@
-# PYthon Enhancement Proposal
-# Proposta de melhoria do PYthon
-n = s = 0
+número = somatório = 0
+
+# Laço infinito
 while True:
     n = int(input('Digite um número: '))
     if n == 999:
         break
-    s += n
-# soma -= 999
-# F-String (Interpolação) a partir do PY 3.6
-print(f'A soma vale {s}')
+    somatório += n
 
-# print(f'A soma vale {s:.2f}')
-# print(f'A soma vale {s:*^20}')
+# PYthon Enhancement Proposal
+# F-String (Interpolação) a partir do PY 3.6
+print(f'A soma vale {somatório}')
