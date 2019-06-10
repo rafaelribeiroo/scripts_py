@@ -1,32 +1,29 @@
-Analogia: Imaginemos a mesma situação hipotética do arquivo anterior:
-"08. ...", mas alteraremos o sujeito e o objetivo. Dessa vez o Luigi quer
-alcançar o ovo do Yoshi, mas ele não sabe quantos passos terá que dar
-para atingir seu objetivo; Na estrutura de repetição vista anteriormente,
-temos que informar até onde ele quer chegar (VARIÁVEL DE CONTROLE) para ele
-chegar ao devido objetivo. Mas, e quando não sabemos quantos passos dar?
-Pensando nisso, o PY possui outra estrutura de repetição, denominada: 'While'.
-Nesse caso, fazemos a seguinte chamada: "Enquanto não chegar ao Yoshi, não pare"
+Analogia para compreensão do while
 
-Diferença?
+    O Luigi quer alcançar o ovo do Yoshi, mas não sabe quantos passos terá que
+    dar para atingir seu objetivo. Na estrutura de repetição vista
+    anteriormente, temos que informar até onde ele quer chegar (VARIÁVEL DE
+    CONTROLE). Entretanto, e quando não sabemos quantos passos dar?  Aí surge
+    outra estrutura de repetição: 'While'. Nesse caso, fazemos a seguinte
+    chamada: "Enquanto não chegar ao Yoshi, não pare"
 
-    For: Estrutura de repetição com VARIÁVEL DE CONTROLE;
-    While: Estrutura de repetição com TESTE LÓGICO.
+Qual a diferença?
 
-Síntaxe:
-    # Enquanto não yoshi:
-    #     passo
-    # pega
+    For → Estrutura de repetição com VARIÁVEL DE CONTROLE;
+    While → ... com TESTE LÓGICO.
 
-    while not <thing>:
-        passo
-    pega
+Síntaxe
 
-    Uso do enquanto aliado às condições:
-    Enquanto não Yoshi:
-    	Se tiver chão na frente:
-	    	passo
-	    Se tiver buraco:
-    		pule
-    	Se tiver moeda:
-	    	Pegue
-    Pega
+Enquanto não yoshi:
+    passo
+pega
+
+# Uso do enquanto aliado às condições
+Enquanto não Yoshi:
+	Se tiver chão na frente:
+    	passo
+    Se tiver buraco:
+		pule
+	Se tiver moeda:
+    	recolhe
+Pega

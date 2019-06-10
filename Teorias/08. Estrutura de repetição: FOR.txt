@@ -1,27 +1,27 @@
-Antes disso você aprendeu apenas a desviar das coisas (if/else), agora você
-aprenderá a repetir elas (for)
+Antes disso você aprendeu a desviar das coisas (if/else), agora você aprenderá
+a repetir elas (for)
 
-	Analogia: Vamos imaginar um cenário onde o Mario queira chegar ao tubo de
-	encanamento verde, porém há oito blocos que ele precisa caminhar para
-	chegar ao objetivo. Para poupar ter que	dizer: "Ande" oito vezes, podemos
-	implementar um laço de repetição com VARIÁVEL DE CONTROLE, onde em uma única
-	chamada: "Caminhar" ele dará o tanto de passos necessários para alcançar seu
-	objetivo.
+Analogia para compreensão do for
 
-Síntaxe:
-	# Laço tal no intervalo(1,10)
-	Laço contador in range(1,10)
-		contador: Variável de controle, apelide como quiser;
-		for <contador> in range: Essa síntaxe o .PY solicita pra identificação;
-		1, 10: Repetir do 1 ao 10.
-			 > Após isso, definir a estrutura de repetição indentada <
+	O Mario precisa chegar ao tubo de encanamento verde. Entretanto, há oito
+	blocos que ele precisa caminhar para chegar ao objetivo. A fim de poupar
+	"Ande" 8x, podemos implementar um laço de repetição com VARIÁVEL DE
+	CONTROLE, onde uma única chamada: "Caminhar", ele dará o tanto de passos
+	necessários para alcançar seu objetivo.
 
-	Se quisermos, podemos atribuir o if aninhado no laço.
-	Ex:
-	laço c no intervalo(0, 3):
-	    se <moeda>:
-		    pega
-		passo
-		pula
+Síntaxe
+
+# Laço tal no intervalo(1,10)
+Laço contador in range(1,10):
+	contador: Variável de controle;
+	for/in range: PY solicita essa síntaxe pra identificação;
+	1, 10: Repetir do 1 ao 10.
+
+# If aninhado no laço
+laço c no intervalo(0, 3):
+    se <moeda>:
+	    pega
 	passo
-	pega
+	pula
+passo
+pega

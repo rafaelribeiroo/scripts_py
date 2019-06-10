@@ -1,20 +1,18 @@
-n1 = int(input('Um valor: '))
-n2 = int(input('Outro valor: '))
-# print('A soma vale {}'.format(n1+n2))
-# Subtração
-# r = n1 -n2
-# Soma
+n1 = int(input('1º valor: '))
+n2 = int(input('2º: '))
+# Somar
 s = n1 + n2
+# Subtrair
+sub = n1 - n2
 # Multiplicar
 m = n1 * n2
 # Dividir
 d = n1 / n2
-# Resto da Divisão, 2/5 é 3 certo? Mas o que sobra pra continuar operação?
-# Sobra 0
+# Resto da Divisão
 di = n1 // n2
 # Exponenciação
 e = n1 ** n2
-# Separando os pontos flutuantes com . e apresentando 3 após a casa, FLUTUANTES
-print('A soma é {}, \n o produto é {} e a \n divisão é {:.3f}'.format(s, m, d), end=' >>> ')
-# o end serve para deixar 2 prints na mesma linha
-print('Divisão inteira {} e potência {}'.format(di, e))
+# :.<número>f é para filtrar quantos num. após a casa eu exibirei
+print(f'A soma é {s}; \nO produto é {m}; \nDivisão é {d:.3f}', end=' → ')
+# O end serve para deixar dois print na mesma linha
+print('Divisão inteira é {} e a potência: {}'.format(di, e))

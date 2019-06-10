@@ -1,30 +1,21 @@
-Analogia: Voltando àquela mesma hipótese do Luigi: "09. ...", sabemos que ele
-não irá parar enquanto não atingir o objetivo (Yoshi), mas, e se pudermos
-incluir uma interrupção na "caminhada" dele? Caso ele encontre a princesa
-Daisy? Não havíamos visto essa funcionalidade previamente porque ela
-necessitava de uma analogia própria por ser tão importante.
+Analogia para compreensão
+
+    Voltando àquela mesma hipótese do Luigi: "09", sabemos que ele não irá parar
+    enquanto não atingir o objetivo (Yoshi), mas, e se pudermos incluir uma
+    interrupção na "caminhada" dele? Caso ele encontre a princesa Daisy?
+    Não havíamos visto essa funcionalidade previamente porque ela
+    necessitava de uma analogia própria por ser tão importante.
 
 Síntaxe:
-    #Enquanto Verdadeiro:
-    #    se chão:
-    #        passo
-    #    se não chão:
-    #        pula
-    #    se yoshi:
-    #        pega
-    #    se princesa:
-    #        pare
-    #        interrompa
-    # pega
 
-    while True:
-        if chão:
-            passo
-        if not chão:
-            pula
-        if yoshi:
-            pega
-        if princesa:
-            pare
-            >> break <<
-    pega
+while True:
+    if chão:
+        passo
+    if not chão:
+        pula
+    if yoshi:
+        pega
+    if princesa:
+        pare
+        >> break <<
+pega

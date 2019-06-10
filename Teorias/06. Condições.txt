@@ -1,27 +1,29 @@
 Estruturas Condicionais (IF): Criar possibilidades, criando condições.
 
-	Analogia: Se um determinado condutor estiver pilotando seu veículo em uma
-    estrada qualquer, chegará um momento que ele encontrará uma bifurcação
-    que o levará ao mesmo lugar (imaginemos), na programação acontece da
-    mesma forma, pra não seguir uma estrutura única apenas contínua, criamos
-    condições de possibilidades, sendo dois algoritmos "um ao lado do outro"
-    para obter o mesmo resultado.
+Analogia para compreensão de condições
 
-	Condição Simples: Se a condição for falsa, a estrutura é finalizada sem
-    executar os comandos.
-        > Comando REPRESENTATIVO: IF
+    Se um determinado condutor estiver pilotando seu veículo em uma estrada
+    qualquer, chegará um momento que ele encontrará uma bifurcação que o
+    levará ao mesmo lugar (hipotético). Na PROGRAMAÇÃO acontece da mesma
+    forma, pra não seguir uma estrutura única apenas contínua, criamos
+    condições de possibilidades, sendo dois algoritmos "um ao lado do
+    outro" para obter o mesmo resultado.
 
-	Condição Composta: Independente se a condição for falsa ou verdadeira os
-    comandos serão executados.
-        > Comando REPRESENTATIVO: IF/ELSE
+Condição Simples: Se a condição for falsa, a estrutura é finalizada sem executar
+os comandos.
+    > Comando REPRESENTATIVO: IF
 
-	Condição Simplificada (if-inline ou operador ternário): Útil quando temos
-    uma situação mais simplificada, consiste em descrever o algoritmo em
-    apenas uma linha
-        > É a condição composta REFATORADA.
-        Ex:
-		print('Carro Novo!' if tempo <= 3 else 'Carro Velho!')
+Condição Composta: Independente se a condição for falsa ou verdadeira os
+comandos serão executados.
+    > Comando REPRESENTATIVO: IF/ELSE
 
-	Condição Aninhada: Se a primeira condição for falsa, ele verifica a segunda,
-    senão, a terceira e assim sucessivamente.
-        > Comando REPRESENTATIVO: IF/ELIF/ELSE
+Condição Simplificada (if-inline/operador ternário): Útil quando temos uma
+situação mais simplificada, consiste em descrever o algoritmo em apenas
+uma linha. O PY não possui operador ternário, mas podemos fazer
+atribuições como abaixo.
+    > É a condição composta REFATORADA.
+    print('Carro Novo!' if tempo <= 3 else 'Carro Velho!')
+
+Condição Aninhada: Se a primeira condição for falsa, ele verifica a segunda,
+senão, a terceira e assim sucessivamente.
+    > Comando REPRESENTATIVO: IF/ELIF/ELSE

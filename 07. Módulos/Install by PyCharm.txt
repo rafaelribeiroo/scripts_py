@@ -1,0 +1,6 @@
+Ao importar um pacote pelo pycharm que não esteja instalado em sua máquina,
+você deve passar o mouse em cima do import e clicar na lâmpada laranja,
+feito isso basta pedir pra instalar.
+
+# To see packages installed:
+Preferences > Project > Project: Interpreter

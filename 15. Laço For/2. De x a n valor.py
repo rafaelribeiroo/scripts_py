@@ -1,8 +1,9 @@
-i = int(input('Início: '))
-f = int(input('Fim: '))
-p = int(input('Passo: '))
-# Porque f+1? Como o Py sempre desconsidera o último valor informado
-# colocamos +1 para ser mais 'readable by humans'
-for c in range(i, f + 1, p):
-    print(c)
+início = int(input('Início: '))
+fim = int(input('Fim: '))
+passo = int(input('Passo: '))
+# Porque fim + 1?
+# Como o PY sempre desconsidera o último valor (ao trabalhar com range),
+# colocamos +1 para ficar mais 'readable by humans'
+for contador in range(início, fim + 1, passo):
+    print(contador)
 print('FIM')

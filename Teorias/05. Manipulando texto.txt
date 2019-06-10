@@ -1,116 +1,35 @@
-String (cadeia de caracteres): 'Rafael Ribeiro'
+Priori: Ao trabalhar com range, ao passar o 1º parâmetro, ele entra certinho,
+mas, o último valor não entra.
+Posteriori: Tudo no PY é objeto, tudo que eu especifico posso atribuir
+métodos a partir de ponto.
 
-Ex:
-    frase = 'Curso em Vídeo Python'
-    # Atribuição de uma string dentro da variável
+frase = 'Rafael Ribeiro'
+    # Atribuição de uma cadeia de caracteres a variável
 
-    Atrás dos bastidores: Quando atribuo essa string, o python pega ela e
-    armazena na memória do computador, só que ela não vai inteira (completa
-    do jeito que vemos), ele cria mini-espaços dentro da memória do computador,
-    e em cada 'espacinho', ele coloca um caractere. Eles são numerados por meio
-    de um índice para seguir a nomenclatura correta e não alterar a sequência.
-    C: 1
-    u: 2
-    r: 3
-    s: 4
-    o: 5
-     : 6
-    e: 7
-    m: 8
-     : 9
-    V: 10
-    í: 11
-    d: 12
-    e: 13
-    o: 14
-     : 15
-    P: 16
-    y: 17
-    t: 18
-    h: 19
-    o: 20
-    n: 21
+Atrás dos bastidores: Quando atribuo essa string, o python pega ela e armazena
+na memória do computador, só que ela não vai inteira (completa do jeito que
+vemos), ele cria mini-espaços dentro da memória do computador, e em cada
+'espacinho', ele coloca um caractere. Eles são numerados por meio de um
+índice para seguir a nomenclatura correta e não alterar a sequência.
 
-    Ao tratar a cadeia de caracteres dessa maneira, fica muito fácil fazer
-    operações com esse tipo.
+    R   A   F   A   E   L       R   I   B   E   I   R   O
+    0   1   2   3   4   5   6   7   8   9   10  11  12  13
 
-Fatiamento:
-Fatiar uma string é conseguir pegar pedaços dela.
-    Ex
-    frase[9]  # Pega o caractere na 9ª posição
-    frase[9:13]  # Da 9ª posição até a 13ª
+Ao tratar a cadeia de caracteres dessa maneira, fica muito fácil fazer
+operações com esse tipo (String), por exemplo...
 
-    Importante: Quando estou trabalhando com fatiamento de string, o último
-    valor não entra (é ignorado pelo PY)
+Fatiamento: Fatiar uma string é conseguir pegar pedaços dela.
 
-    # E se pegar um além da cadeia?
-    frase [9:22]  # Ele vai até o último e para
-
-    frase[9:19:2]  # Vai do caractere 9 até o 19, pulando 2 em 2 posições
-    frase[:5]  # Ao omitir, ele começa do 0
-    frase [13:]  # Nesse caso, ele vai até a última posição
-    frase [9::3]  # Do caractere 9 até o último, pulando de 3 em 3
+    SEE EXAMPLES: http://twixar.me/wGPn
 
 Análise:
-Tudo no PY é objeto, tudo que eu especifico posso atribuir métodos a partir de
-ponto (.)
-    Ex
-    print(frase.upper().count('o'))
 
-    # Quantos caracteres (mini-espaços)
-    len(frase)
-    # Quantos caracteres com o parâmetro informado
-    frase.count('o')
-    # Quantos caracteres com fatiamento
-    frase.count('o', 0, 13)
-    # Vai buscar no índice qual o local que se encontra o parâmetro, o PY
-    retornará a posição do caractere seguido pelo restante
-    frase.find('Python')
-    # Caso não exista, retorna -1
-    frase.find('Na!$')
+    SEE EXAMPLES: http://twixar.me/XGPn
 
-Transformação:
-Substituir string
-    Ex:
-    # Substitui o 1º parâmetro pelo 2º
-    frase.replace('Python', 'Android')
+Transformação: Substituição da string
 
-    Importante: Uma string é imútavel, então não posso alterar um caractere
-    (frase[0] = 'J'), e o replace não modifica totalmente, apenas se eu
-    atribuir a modificação a uma variável.
-        Ex > frase = frase.replace('Python', 'Android')
-
-    # Diferente do find q retorna a posição, aqui é 0 ou 1 (boolean), sem
-    diferenciação de Camel Case passar o método .lower antecedendo
-    print('Curso' in frase)
-    # Uppercase
-    frase.upper()
-    # Lowercase
-    frase.lower()
-    # Apenas o 1º caractere em upper
-    frase.capitalize()
-    # Toda palavra começa em upper
-    frase.title()
-
-    Fato: Quando algumas pessoas vão preencher algum form, elas clicam no input
-    e pressiona o space algumas vezes pra ver se funciona, python tem métodos
-    para eliminar esses espaços vagos inúteis.
-
-    # Elimina espaço do início ao fim
-    frase.strip()
-    # Muitas funções internas que tratam strings tem a variação R (tratar
-    pela direita)
-    frase.rstrip()
-    # Tratar pela esquerda
-    frase.lstrip()
+    SEE EXAMPLES: http://twixar.me/PGPn
 
 Divisão e Junção:
-O Strip visto anteriormente quebra espaço vago do início e do fim, mas.
-E no meio? SPLIT
-    Ex:
-    juncao = '-'.join(frase_com_split)  # Une os itens da lista separando por -
 
-
-    Prática:
-
-        Verificar https://github.com/rafaelribeiroo/scripts_py/tree/master/10.%20Desafios%20Manipula%C3%A7%C3%A3o%20de%20Texto
+    SEE EXAMPLES: http://twixar.me/VGPn

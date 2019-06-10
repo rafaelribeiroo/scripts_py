@@ -1,21 +1,20 @@
-# Abaixo, para exibir uma mensagem na tela, pode ser por meio de
-# aspas simples ou aspas compostas.
+# Para exibir uma mensagem na tela, utilizamos aspas simples/compostas
 print('Olá, mundo!')
 
-# Se forem números NÃO há delimitadores.
+# Para números NÃO há delimitadores
 print(7 + 4)
 
 '''
 Mas porque essa diferença?
-    Mensagens: São utilizadas primordialmente para serem exibidas na tela
-    Números: Para fazer cálculos
+    Mensagens: São utilizadas primordialmente para serem exibidas na tela;
+    Números: Para fazer cálculos.
 '''
 
-# Como são dois delimitadores, ele vai concatenar as strings, retornando 74
+# Como são dois delimitadores, ele vai concatenar as strings
 print('7' + '4')
 
-# Abaixo dará erro, porque o + só funciona se ambos forem do mesmo tipo
+# A soma só funciona se ambos forem do mesmo tipo, ocasionará erro
 print('Ola' + 5)
 
-# Caso queira printar com tipos diferentes, tem que colocar a vírgula
+# A vírgula é utilizada para exibir 2 tipos+ em um mesmo print
 print('Olá', 5)
