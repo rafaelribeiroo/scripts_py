@@ -11,37 +11,20 @@ Teoria
     Mas, e se nosso lanche incluir um suco também? Se definirmos a var lanche
     recebendo o suco, ele vai eliminar o hambúrguer. Pensando nisso, o PY nos
     oferece uma forma de atribuir dois ou mais valores a uma mesma variável.
-    Chamamos isso de TUPLA.
-    > Na TUPLA podemos definir: um hambúrguer, um suco, uma pizza e um pudim
+        > Chamamos isso de TUPLA.
+    Na TUPLA podemos definir: um hambúrguer, um suco, uma pizza e um pudim
     a mesma var.
 
     > Outra coisa que podemos fazer através da TUPLA é acessar os elementos
     dessa TUPLA. Esses elementos são identificados por ÍNDICES, que por sua
     vez são numéricos.
-    Ex: var lanche
-        hambúrguer  suco    pizza   pudim
-            0        1        2       3
 
-    # Mostra todos
-    print(lanche)
-    # Mostra pizza
-    print(lanche[2])
-    # Do hambúrguer ao suco, já que o PY não vai até o último
-    print(lanche[0:2])
-    # Do suco ao pudim
-    print(lanche[1:])
-    # Ao contrário
-    print(lanche[-1])
-    # Tem quantos QUADRADINHOS na minha TUPLA?
-    len(lanche)
-    # Do suco ao 1º (Hambúrguer)
-    print(lanche[-3:])
+    var lanche
+    hambúrguer  suco    pizza   pudim
+        0        1        2       3
 
-    # Para cada comida em lanche
-    for c in lanche:
-        # Qual é a 1ª/2ª/... comida
-        print(c)
+    SEE EXAMPLES: http://twixar.me/5T7n
 
-    > E o mais importante, as TUPLAS são IMUTÁVEIS. Ou seja, não podemos
-    modificar o elemento suco por cerveja. Se quiser mudar uma tupla, só
-    parando o programa e dando restart, informando uma nova tupla.
+> E o mais importante, as TUPLAS são IMUTÁVEIS. Ou seja, não podemos modificar
+o elemento suco por cerveja. Se quiser mudar uma tupla, só parando o programa
+e dando restart, informando uma nova tupla.

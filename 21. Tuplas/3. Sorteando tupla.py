@@ -1,5 +1,6 @@
 lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim', 'Batata frita')
-# Em ordem
+# Ordena por nome
 print(sorted(lanche))
+
 # Mas na tupla os objetos não são imutáveis?
-# Sim, mas ele não altera minha tupla, SÓ COLOCA EM ORDEM!
+# Sim, mas ele não altera minha tupla, só coloca em ORDEM!
