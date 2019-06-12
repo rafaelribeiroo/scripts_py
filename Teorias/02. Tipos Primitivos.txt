@@ -5,50 +5,9 @@ Principais tipos primitivos
     bool → True, False
     str → 'Olá', '7.5', ''
 
-Outra forma (melhor) de se usar o print:
+var.isnumeric()
+> Se não definirmos o tipo primitivo antes do input, ele será str. Porém, com
+esse método ele vai dizer se é possível converter esse valor que digitei em
+um número com o tipo primitivo int antes dele
 
-    print('A soma vale: ', num1 + num2)
-    # ou
-    print('A soma vale: ', soma)  # Caso eu tenha atribuído a soma
-    na variável: 'soma'
-
-    POR:
-    print('A soma vale {}'.format(soma))
-    # A síntaxe acima é a mais recente a partir do .PY 3
-    # Caso veja síntaxes utilizando % é mais antiga, .PY 2.7
-
-E se eu quiser ver o tipo primitivo de minha variável input?
-
-    n1 = input('Digite um valor: ')
-    print(type(n1))
-
-E se quiser mostrar o que o usuário digitou?
-
-    n1 = int(input('Digite o 1° valor: '))
-    n2 = int(input('Digite o 2° valor: '))
-    soma = n1 + n2
-    print(f'A soma entre {n1} e {n2} é igual a {soma}')
-
-Podemos numerar cada chave também:
-
-    n1 = int(input('Digite o 1° valor: '))
-    n2 = int(input('Digite o 2° valor: '))
-    soma = n1 + n2
-    print('A soma entre {0} e {1} é igual a {2}'.format(n1, n2, soma))
-
-Outros exemplos de tipo primitivo:
-
-    n = float(input('Digite um valor: '))
-    print(n)
-    # Se passarmos o valor 4 ele armazenará o valor 4.0
-
-    n = bool(input('Digite um valor: '))
-    print(n)
-    # True: Se tiver um valor
-    # False: Se não
-
-    n = input('Digite algo: ')
-    print(n.isnumeric())
-    # Já sabemos que se não definirmos o tipo primitivo antes do input, ele será
-    str. Porém, com esse método ele vai dizer se é possível converter esse valor
-    que digitei em um número com o tipo primitivo int antes dele.
+SEE EXAMPLES: http://twixar.me/fWNn

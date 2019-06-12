@@ -14,16 +14,12 @@ Toda operação aritmética precisa de um operando, que pode ser: um número/
 uma string/variáveis.
 Esses operadores acima são binários, ou seja, precisam de 2 operandos.
 
+    5 + 2 = 7           5 / 2 = 2.5           5 * 2 = 10
+    5 - 2 = 3           5 ** 2 (5² = 25)
 
-    Na mesma ordem:
-    5 + 2 = 7
-    5 / 2 = 2.5
-    5 * 2 = 10
-    5 - 2 = 3
-    5 ** 2 (5² = 25)
-        Exemplo divisão:
-            5 |_2
-            1  2
+    5 |_2
+    1  2
+
     5 // 2 = 2 (quociente acima)
     5 % 2 = 1 (resto acima)
 
@@ -40,18 +36,4 @@ Ex: No Java há um limite para tamanho, se exceder tem que utilizar o long
 (que também tem um limite e pode estourar);
     No PY o limite é a memória
 
-A alternativa para os caracteres especiais são as funções nativas do PYTHON
-
-    pow(4, 3)
-        Potência 4³ (elevada ao cubo)
-
-    E a raíz quadrada?
-    # É a mesma coisa que criar a potência dele por meio
-    81 ** (1 / 2)
-
-    E a raíz cúbica?
-    127 ** (1 / 3)
-
-Brincando no shell
->>> 'Oi' * 5
->>> '=' * 5
+SEE EXAMPLES: http://twixar.me/mWNn
