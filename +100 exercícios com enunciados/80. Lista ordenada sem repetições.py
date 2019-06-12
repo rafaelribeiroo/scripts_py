@@ -10,7 +10,7 @@ for c in range(0, 5):
         lista.append(n)
     # Caso o valor passado for maior que o
     # maior atual, pode inserir após ele.
-    elif n > lista[len(lista)-1]:
+    elif n > lista[len(lista) - 1]:
         lista.append(n)
         print(f'Adicionado ao final da lista...')
     # Agora, se não for nem o 1º nem maior

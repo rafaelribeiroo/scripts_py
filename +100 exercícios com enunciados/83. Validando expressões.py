@@ -25,5 +25,3 @@ if len(pilha) == 0:
 # Se ainda houver, tá errada
 else:
     print('Sua expressão está errada!')
-
-        

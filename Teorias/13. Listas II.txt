@@ -1,30 +1,7 @@
-Memorando: A [lista] é uma variável composta mutável.
+Priori: A lista é uma variável composta mutável
 
-    dados = list()
+pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
+			   0	  1		  0		 1		0 	   1
+				  0				  1				2
 
-    # Cria na memória uma estrutura com índice 0 nomeada Pedro
-    dados.append('Pedro')
-
-    # Cria na memória uma estrutura com índice 1 contendo o 25
-    dados.append(25)
-
-    print(dados[0])  # Pedro
-    print(dados[1])  # 25
-
-Vamos declarar uma outra estrutura agora [matriz]:
-
-	pessoas = list()
-
-	# Fatiamento completo da estrutura dados
-	pessoas.append(dados[:])
-
-	# Ficando dessa forma
-	pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
-				   0	  1		  0		 1		0 	   1
-					  0				  1				2
-
-	# E para exibirmos?
-	print(pessoas[0][0])  # Pedro
-	print(pessoas[1][1])  # 19
-	print(pessoas[2][0])  # João
-	print(pessoas[1])  # ['Maria', 19]
+SEE EXAMPLES: http://twixar.me/KdNn
