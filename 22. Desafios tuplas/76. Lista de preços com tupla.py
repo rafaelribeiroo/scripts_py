@@ -1,7 +1,7 @@
-# 76. Crie um programa que tenha uma tupla única com nomes de produtos e
-# seus respectivos preços, na sequência.
-# No final, mostre uma listagem de preços, organizando os dados em forma
-# tabular.
+# 76. Crie um programa que tenha uma tupla única com nomes de produtos e seus
+# respectivos preços, na sequência. No final, mostre uma listagem de preços,
+# organizando os dados em forma tabular.
+
 listagem = (
     'Lápis', 1.75,
     'Borracha', 2,
@@ -13,14 +13,18 @@ listagem = (
     'Canetas', 22.30,
     'Livro', 34.90
 )
-print('-' * 30)
-print('{:^30}'.format(' LISTAGEM DE PREÇOS '))
-print('-' * 30)
-for pos in range(0, len(listagem)):
-    if pos % 2 == 0:
-        print(f'{listagem[pos]:.<21}', end='')
+
+print('-' * 40)
+print(f'{"LISTAGEM DE PREÇOS":^40}')
+print('-' * 40)
+
+for posição in range(0, len(listagem)):
+    # Todos os preços estão em posições pares, então...
+    if posição % 2 == 0:
+        # Aloco eles à esquerda
+        print(f'{listagem[posição]:.<21}', end='')
+    # Os ímpares então serão os preços, correto?!
     else:
-        # Provando que há forma de abranger o espaçamento da var
-        # definindo quantas casas após o ponto
-        print(f'R${listagem[pos]:>7.2f}')
-print('-' * 30)
+        # Deixo eles à direita com duas casas após a vírgula
+        print(f'R${listagem[posição]:>7.2f}')
+print('-' * 40)
