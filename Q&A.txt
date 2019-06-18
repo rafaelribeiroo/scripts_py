@@ -1,0 +1,48 @@
+Difference between <blank> & <null>
+
+    Blank: Serve apenas para validar os inputs, tanto no CMS/Front-end;
+
+    Null: A nível DB (o NULL é equivalente ao None do PY). NULL representa um
+    dado não-existente.
+
+Qual a diferença entre <crawling>, <parsing> e <scraping>?
+
+    Crawling → Essencialmente segue links, tanto interno quanto externo
+    Analogia → Imagine que você irá em um evento de degustação de vinho,
+    certamente você irá experimentar muitos vinhos (sem ficar bêbado,
+    pois você vai apenas provar e cuspir fora), é possível que você
+    recorde o sabor de cada um para que no futuro, se alguém
+    questionar você em particular você sabe dar um bom
+    feedback por já ter experimentado (como o gosto,
+    o aroma etc).
+
+    Scraping → É o ato de extração. Por exemplo: de rastreamento
+    Analogia → Digamos que você solicitou uma pizza extra grande e, ao invés de
+    comer tudo isso sozinho você separa uns pedaços dela, como: a cobertura/
+    pequenos pedaços/enchimentos etc. Ou seja, ao invés de comer toda a
+    pizza sozinho você come apenas o que você mais gosta (o que deseja)
+    e guarda o restante.
+
+    Parsing → Basicamente quebra em pedaços, constituindo as partes ou
+    segmentos
+    Analogia → Suponha que você esteja tentando comer um 'lanche grande', em
+    tese você não será capaz de que comer isso em uma dentada monstruosa, o
+    que você naturalmente fará é dar mordidas menores e, dessa maneira você
+    irá comer todo o lanche; O que você fará na essência é quebrar o lanche
+    em pequenos pedaços mastigando-os.
+
+Qual a diferença entre <is_staff>, <is_active> e <is_superuser>?
+
+    is_active → Essa flag controla se o usuário está ativo, se estiver off o
+    usuário não conseguirá efetuar login;
+    is_staff → Controla se o usuário está permitido a logar na interface
+    admin;
+    is_superuser → Permite full acesso no admin. Create/Delete todas as
+    entidades, assim como regular as permissões.
+
+Qual a diferença entre <VARIÁVEL> e <CONSTANTE>?
+
+    Variável → Utilizará no módulo em que está trabalhando e só
+    Constante → Deixará geralmente no arquivo de configurações
+    principal do projeto, utilizará várias vezes ao decorrer
+    do projeto.

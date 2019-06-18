@@ -15,31 +15,38 @@ História da linguagem:
     colocaram a imagem de uma Píton, com isso a eurística pegou.
 
 Benefícios:
-	> Linguagem de propósito geral → Não é focada em uma determinada coisa.
-    Ex: Java é muito voltada para desenvolvimento local/android;
-    PHP é voltado pra web;
-    R para probabilidade e estatística.
+
+    > Produtividade → Fazer muita coisa com poucas linhas de código. Fazer mais
+    com menos;
+    > Legibilidade → Código escrito é amigável para um outro ser humano;
+	> Linguagem de propósito geral → Não é focada em uma determinada coisa;
+        Ex: Java é muito voltada para desenvolvimento local/android;
+            PHP é voltado pra web;
+            R para probabilidade e estatística.
     > Simples, fácil e intuitivo → São comandos em inglês, mas várias palavras
-    conhecidas também são.
-    Ex: Game, pc etc.
-	> Multiplataforma → Do mesmo jeito que eu escrevo programas em .PY no linux,
-    da mesma forma ele funcionará no mac/windows.
+    conhecidas também são;
+        Ex: Game, pc etc.
+	> Multiplataforma → Ao escrever código no Windows, vai funcionar nos
+    outros SO's sem qualquer alteração;
 	> Batteries Included → Nem tudo já vem "acoplado" em outras linguagens,
-    então o programador perde um tempo importando. Já no python, ele já vem
-    com muita coisa instalada (podendo ainda instalar mais). Entretanto,
-    com o que ele já vem/sua essência, já é o necessário para
-    utilizarmos em nosso dia-a-dia.
-	> Livre → Código aberto, faz parte de uma licença Livre.
+    então o programador perde um tempo importando. Já no python, ele já
+    vem com muita coisa instalada (podendo ainda instalar mais).
+    Entretanto, com o que ele já vem/sua essência, já é o
+    necessário para utilizarmos em nosso dia-a-dia;
+	> Livre → Código aberto, faz parte de uma licença livre;
 	> Organizada → Na hora de escrever os algoritmos, a posição precisa ser
     toda organizada/indentação. Além de ter seu próprio guia de estilo.
 	> Orientada a objetos → Tudo no python são objetos, até uma simples
-    variável.
-	> Muitas bibliotecas → App para celular/jogo/interface de sistema.
+    variável;
+	> Muitas bibliotecas → App para celular/jogo/interface de sistema;
+    > Baixo uso de caracteres especiais → Torna-o mais intuitivo;
 	> Tem uma filosofia própria → Zen do Python, por Tim Peters.
 		>>> import this
 
-Curiosidade:
+Curiosidades:
 	> Os crawlers do google são feitos em Python
+    > A primeira imagem do buraco negro foi montada embasada em PY, nas
+    bibliotecas: Numpy/Scipy/Pandas/Jupyter/Matplotlib/Astropy
 
 Como funciona o interpretador Python?
 
