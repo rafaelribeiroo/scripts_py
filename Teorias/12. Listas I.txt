@@ -1,7 +1,7 @@
 Recapitulando: As TUPLAS são de extrema importância para armazenar diversos
 elementos. Sua principal peculiaridade é que são IMUTÁVEIS.
 
-> Na lista definimos uma série de strings (ou) números para uma mesma var
+> Na lista definimos uma série de strings e/ou números para uma mesma var
 var lanche
 hambúrguer  suco    pizza   pudim
     0        1        2       3

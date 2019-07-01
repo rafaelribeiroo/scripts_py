@@ -1,8 +1,8 @@
-Priori: A lista é uma variável composta mutável, contendo vários registros
-dentro de um mesmo elemento.
+Priori: Veremos agora as listas compostas, que contém vários registros dentro
+de um mesmo elemento.
 
 pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
-			   0	  1		  0		 1		0 	   1
-				  0				  1				2
+			   0	  1		  0		 1		0 	   1       # Coluna
+				  0				  1				2          # Linha
 
 SEE EXAMPLES: http://twixar.me/KdNn

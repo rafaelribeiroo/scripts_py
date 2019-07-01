@@ -17,3 +17,13 @@ if 7 in lista
 # Se na minha lista tiver preços/valores, posso utilizar a abrangência e slice
 # monetário na mesma linha
 print(f'R${lista[posição]:>7.2f}')
+
+# Ao utilizar listas, quando informamos a posição exata para inserção, o append
+# não é necessário, pois estamos dando duas instruções diferentes e vai
+# confundir o interpretador
+'''
+Para múltiplos registros dentro de um mesmo elemento
+lista[linha][coluna]
+Para um registro único dentro de um elemento
+lista[linha]
+'''
