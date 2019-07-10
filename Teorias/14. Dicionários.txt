@@ -1,0 +1,31 @@
+Priori: Vimos as três estruturas compostas, lecionando nessa ordem, tudo que
+aprendemos em tupla, aplicamos nas listas e todos os conceitos que
+aprendemos em lista, aplicamos em dicionário e assim, entender o
+todo. Todas tem suas vantagens e desvantagens.
+
+Recapitulando
+
+    dados = list()
+    dados.append('Pedro')
+    dados.append(25)
+    'Pedro', 25
+       0      1
+
+    print(dados[0])  # Pedro
+    print(dados[1])  # 25
+
+Mas e se quisermos modificar esse índice, para ficar mais "human readable"? Pq
+não alterar o índice 0 para: "nome"? Ficaria bem mais legível... Nas listas
+temos a obrigação de ter índice NUMÉRICO, mas e índice LITERAL?
+
+DICIONÁRIOS
+
+    São estruturas de dados semelhantes às tuplas/listas mas contamos com
+    índices literais
+    > PERSONALIZAR ÍNDICES <
+
+Star Wars   1977   George Lucas      Avengers   2012   Joss Whedon
+titulo      ano    diretor           titulo     ano    diretor
+            0                                     1
+
+SEE EXAMPLES:
