@@ -4,12 +4,13 @@
 # no dado.
 
 from random import randint
-from time import sleep
+# from time import sleep
 
 jogadas = dict()
 print('Valores sorteados: ')
 for contador in range(1, 4 + 1):
     sorteio = randint(1, 6)
     print(f'   O jogador{contador} tirou {sorteio}')
+    if contador == 1:
+        print('primeiro loop')
     jogadas[f'jogador{contador}'] = sorteio
-for
