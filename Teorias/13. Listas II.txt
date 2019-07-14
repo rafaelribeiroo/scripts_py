@@ -1,8 +1,11 @@
 Priori: Veremos agora as listas compostas, que contém vários registros dentro
 de um mesmo elemento.
 
+> A variável composta tem 3 níveis de composição.
+<lista>.append([valor_1, [valor_2, valor_3], valor_4])
+
 pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
-			   0	  1		  0		 1		0 	   1       # Linha
-				  0				  1				2          # Coluna
+      			   0	    1		    0		   1		  0      1       # Linha
+				           0				      1		          2          # Coluna
 
 SEE EXAMPLES: http://twixar.me/KdNn
