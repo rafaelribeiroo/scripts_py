@@ -38,3 +38,5 @@ python -m http.server  # 8080 7800 10201 8000
 pip install pyinstaller
 pyinstaller -F <nome_script>.py
 # Será gerada uma pasta /build e /dist (onde estará o arquivo .exe)
+
+# Barra invertida é redundante se houver operadores binários

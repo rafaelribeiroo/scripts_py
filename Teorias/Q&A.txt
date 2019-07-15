@@ -45,3 +45,7 @@ do projeto.
 Qual a função dos arquivos *.pyc?
 São arquivos pré-compilados, eles funcionam como um cache e evitam que o
 interpretador tenha que interpretar os fontes a cada import.
+
+Qual a diferença entre <método> e <função>?
+São quase idênticos, exceto que todos os dados que são passados para uma função
+são EXPLÍCITOS, enquanto os enviados pro método são IMPLÍCITOS.
