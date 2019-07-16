@@ -27,3 +27,16 @@ lista[linha][coluna]
 Para um registro único dentro de um elemento
 lista[linha]
 '''
+
+# Como o append só aceita um valor, podemos passar vários como lista
+<alguma_lista>.append([nome, [nota1, nota2], media])
+
+# Running local front-end projects
+python -m http.server  # 8080 7800 10201 8000
+
+# Converter script .PY em .exe:
+pip install pyinstaller
+pyinstaller -F <nome_script>.py
+# Será gerada uma pasta /build e /dist (onde estará o arquivo .exe)
+
+# Barra invertida é redundante se houver operadores binários
