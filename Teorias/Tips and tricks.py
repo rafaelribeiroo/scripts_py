@@ -40,3 +40,10 @@ pyinstaller -F <nome_script>.py
 # Será gerada uma pasta /build e /dist (onde estará o arquivo .exe)
 
 # Barra invertida é redundante se houver operadores binários
+
+# Filtrando em poucas linhas o que o user precisa informar
+# Inside a loop:
+while True:
+    pessoa['dado_tal'] = str(input('Informe o dado '))
+    if pessoa['dado_tal'] in '<caracteres_aceitados>':
+        break
