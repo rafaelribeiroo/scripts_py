@@ -1,4 +1,4 @@
-# Scripts Python
+# Python v3
 
 O repositório acima se refere ao curso gratuito do Gustavo Guanabara, do canal "[Curso em Vídeo](https://www.youtube.com/user/cursosemvideo)", nele eu atribuí todos os exercícios comentados, abstração necessária das aulas teóricas, dicas e truques que fui aprendendo ao decorrer do curso (através dele e fora também), e, para não ficar muito profissional, algumas piadas sobre a linguagem que localizei enquanto realizava o curso.
 
