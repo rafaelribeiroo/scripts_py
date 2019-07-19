@@ -4,7 +4,7 @@
 # individualmente.
 
 ficha = list()
-resp = ''
+resposta = ''
 while True:
     nome = str(input('Nome: '))
     nota1 = float(input('Nota 1: '))
@@ -13,8 +13,8 @@ while True:
     # Podemos utilizar o append da forma abaixo também
     # A variável composta tem 3 níveis de composição
     ficha.append([nome, [nota1, nota2], media])
-    resp = str(input('Quer continuar? [S/N] '))
-    if resp in 'Nn':
+    resposta = str(input('Quer continuar? [S/N] '))
+    if resposta in 'Nn':
         break
 
 print('-=' * 30)
