@@ -2,50 +2,55 @@
 # incluindo um sistema de visualização de detalhes do aproveitamento de
 # cada jogador.
 
-pessoa = dict()
-galera = list()
+time = list()
+jogador = dict()
+partidas = list()
 
 while True:
-    gols = list()
-    # Definimos a soma dentro do While porque a cada iteração ela iria
-    # armazenar o último valor de soma, agora iterando sempre, ela vai
-    # passar a valer 0 para somar o total de gols de cada pessoa.
-    soma = 0
-    print('–' * 50)
-    pessoa['nome'] = str(input('Nome do Jogador: '))
-    partidas = int(input(f'Quantas partidas {pessoa["nome"]} jogou? '))
-    for contador in range(0, partidas):
-        gols.append(int(input(f'Quantos gols na partida {contador}? ')))
-        soma += gols[contador]
-    pessoa['gols'] = gols[:]
-    pessoa['total'] = soma
-    # Não se torna necessário já que inserimos a lista vazia a cada iteração
-    # gols.clear()
-    galera.append(pessoa.copy())
+    # A cada passo leremos de um novo jogador
+    jogador.clear()
+    jogador['nome'] = str(input('Nome do Jogador: '))
+    total_partidas = int(
+        input(f'Quantas partidas o(a) {jogador["nome"]} jogou? ')
+    )
+    partidas.clear()
+    for contador in range(0, total_partidas):
+        partidas.append(
+            int(input(f'Quantos gols na partida {contador + 1}? '))
+        )
+    jogador['gols'] = partidas[:]
+    jogador['total'] = sum(partidas)
+    time.append(jogador.copy())
     while True:
-        resposta = str(input('Quer continuar? [S/N] ')).upper()[0]
+        resposta = str(input('Quer continuar? [S/N] ')).upper()
         if resposta in 'SN':
             break
         print('ERRO! Responda apenas S ou N.')
     if resposta == 'N':
         break
-print('–' * 50)
-print(galera)
-print('–' * 50)
-print(' cód nome       gols               total')
-for índice, elemento in enumerate(galera):
-    print(f'{índice:>4} {galera[índice]["nome"]:<10} '
-          f'{galera[índice]["gols"]} {galera[índice]["total"]:^30}')
+print('-=' * 30)
+print('cod ', end='')
+# Cabeçalho das chaves
+for i in jogador.keys():
+    print(f'{i:<15}', end='')
 print()
+print('-' * 40)
+for índice, valor in enumerate(time):
+    print(f'{índice:>3}', end='')
+    for dígito in valor.values():
+        # Convertemos a lista de gols para str para poder "abranger"
+        print(f'{str(dígito):<15}', end='')
+    print()
+print('-' * 40)
 while True:
-    print('–' * 50)
-    opção = int(input('Deseja ver o registro de algum? '))
-    if opção == len(galera) - 1:
-        print(f'ERRO! Não existe o índice {opção} em nossos registros')
-    elif opção == 999:
+    busca = int(input('Mostrar dados de qual jogador? (999 para parar) '))
+    if busca == 999:
         break
+    if busca >= len(time):
+        print(f'ERRO! Não existe jogador com código {busca}!')
     else:
-        print(f'-- LEVANTAMENTO DO JOGADOR {galera[opção]["nome"]}')
-        for contador in range(0, len(galera[opção]["gols"])):
-            print(f'No {contador+1}º jogo, fiz '
-                  f'{galera[opção]["gols"][contador]} gols.')
+        print(f' -- LEVANTAMENTO DO JOGADOR {time[busca]["nome"]}:')
+        for i, g in enumerate(time[busca]['gols']):
+            print(f'   No jogo {i + 1} fez {g} gols.')
+    print('-' * 40)
+print('<< VOLTE SEMPRE >>')
