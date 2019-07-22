@@ -1,0 +1,17 @@
+Basicamente, as funções em todas as linguagens de programação estão vinculadas
+a uma palavrinha mágica: "ROTINA" – algo que fazemos constantemente.
+    ← Essa situação hipotética existe também no PY.
+Desde o 1° exercício, utilizamos funções demasiadamente, sendo as principais:
+→ print();  → len();  → input();  → int();  → float();
+
+← O PY vêm repleto de funções. Entretanto, nem sempre a gama de funcionalidades
+que o PY provê nos atenderá totalmente.
+    Ex: Em todos nossos programas, é comum utilizarmos uma linha multiplicada
+    por algum número alto, isso é uma ROTINA, então basta "chamarmos" ela da
+    seguinte forma:
+    >>> mostraLinha()
+
+No PY, a instrução para a criação de uma nova "rotina" é DEF, a qual significa:
+definição de função.
+    ← Sua principal característica é reduzir as informações repetitivas que
+    você passa ao interpretador.
