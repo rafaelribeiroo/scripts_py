@@ -49,3 +49,7 @@ interpretador tenha que interpretar os fontes a cada import.
 Qual a diferença entre <método> e <função>?
 São quase idênticos, exceto que todos os dados que são passados para uma função
 são EXPLÍCITOS, enquanto os enviados pro método são IMPLÍCITOS.
+
+Como eu guardo uma imagem no banco de dados usando Django?
+Salva o arquivo em um diretório do servidor web e grava só o caminho relativo
+no banco, isso é boas práticas.
