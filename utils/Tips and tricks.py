@@ -1,7 +1,8 @@
 '''TUPLA/LISTA/DICIONÁRIOS são as COLEÇÕES do PY e cada uma contém sua
 característica.
 > Tupla e a sua IMUTABILIDADE
-> Lista e a sua MUTABILIDADE'''
+> Lista e a sua MUTABILIDADE
+> Dicionário e o seu ÍNDICE LITERAL'''
 
 # Ao trabalhar com operador lógico and, podemos:
 if 7 > média >= 5:
@@ -40,6 +41,12 @@ pyinstaller -F <nome_script>.py
 # Será gerada uma pasta /build e /dist (onde estará o arquivo .exe)
 
 # Barra invertida é redundante se houver operadores binários
+# Ex: print('Mensagem muito + \
+#           'longa')
+
+# Caso as versões mais novas do PY estejam gerando um buffer de tela
+# (aguardando todos os sleeps concluírem para exibir o resultado)
+print(f'{contador} ', end='', flush=True)  # Use o Flush
 
 # Filtrando em poucas linhas o que o user precisa informar
 # Inside a loop:
