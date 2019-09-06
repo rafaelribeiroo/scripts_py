@@ -1,4 +1,4 @@
-def contador(a=0, b=0, c=0):
+def somar(a=0, b=0, c=0):
     """
     -> Faz uma contagem e mostra na tela.
     :param i: início da contagem
