@@ -4,14 +4,24 @@
 # processo de cálculo do fatorial.
 
 
-def fatorial(num, show):
-    if show == True:
-        num = 1
-        for contador in range(num, 0, -1):
-            num *= contador
-            print(f'{contador} ', end='x')
-        return num
+def fatorial(n, show=False):
+    '''
+    -> Calcula o Fatorial de um número.
+    :param n: O número a ser calculado.
+    :return: O valor do Fatorial de um número n.
+    '''
+    print('-' * 30)
+    # Para exibir o número sendo subtraído a cada iteração
+    c = n
+    # Fator nulo de fatoração é 1, então se não fizer nenhum cálculo...
+    multiplicação = 1
+    for contador in range(n, 0, -1):
+        if show is True:
+            print(f'{contador}', end='')
+            print(' x ' if c != 1 else ' = ', end='')
+        multiplicação *= c
+        c -= 1
+    return multiplicação
 
 
-n = int(int('Fatorial: '))
-fatorial(n, show=True)
+print(fatorial(5, show=True))
