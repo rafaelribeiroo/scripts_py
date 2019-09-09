@@ -19,7 +19,7 @@ def notas(*n, sit=False):
     r['total'] = len(n)
     r['maior'] = max(n)
     r['menor'] = min(n)
-    r['média'] = sum(n) / len(n)
+    r['média'] = sum(n)/len(n)
     if sit:
         if r['média'] >= 7:
             r['situação'] = 'BOA'

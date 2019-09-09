@@ -1,10 +1,14 @@
-Interactive help (Ajuda interativa): No PY (e em várias linguagens), elas
-apresentam uma documentação muito avançada, mas ele tem um diferencial,
-conta com um método nativo:
-    ← help(print)  # Ajuda no método
-    ← print(input.__doc__)  # Recordação dos parâmetros solicitados
+No PY, há três formas de se obter uma ajuda em determinado método/função, o que
+o diferencia de grande parte das linguagens é sua ajuda interativa.
+
+    ← help(print)
+    Responsável por auxiliar na recordação dos parâmetros solicitados
+    (requeridos e opcionais).
+
+    ← print(print.__doc__)
+    Similar ao help, porém está entrando em desuso.
 
 Além dessas duas documentações, temos também as DOCSTRINGS – basicamente, uma
 string de documentação/manual.
 
-SEE EXAMPLES:
+SEE EXAMPLES: http://twixar.me/04R1
