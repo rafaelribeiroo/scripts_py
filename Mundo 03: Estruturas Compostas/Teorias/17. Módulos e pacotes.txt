@@ -1,0 +1,13 @@
+Priori: Modularizar é o ato de construir módulos.
+
+Por mais que modularizamos e atribuimos os métodos em arquivos, como:
+"úteis.py", chegará uma hora que ele ficará sobrecarregado de métodos também,
+é aí que surgem os PACOTES (diretório), onde podemos nomear de úteis e fazer
+a segmentação: "funções para tratamento de strings/números/datas/cores".
+
+EXEMPLO
+> uteis
+    > cores
+    > datas
+    > números
+    > strings
