@@ -5,7 +5,6 @@
 # > De 10 até 0, de 2 em 2
 # > Uma contagem personalizada.
 
-from time import sleep
 
 def contagem(inicio, fim, passo):
     print('-=' * 30)
@@ -15,6 +14,7 @@ def contagem(inicio, fim, passo):
         print(contador, end=' ')
         # sleep(0.2)
     print('FIM!')
+
 
 contagem(1, 10, 1)
 contagem(10, 0, -2)

@@ -8,13 +8,14 @@ Olá, mundo!
 ~~~~~~~~~~~
 '''
 
+
 def escreva(frase):
     contador = len(frase) + 2
     print('~' * contador)
     print(f'{frase:^{contador}}')
     print('~' * contador)
 
+
 escreva('Gustavo Guanabara')
 escreva('Curso de Python no Youtube')
 escreva('CeV')
-
