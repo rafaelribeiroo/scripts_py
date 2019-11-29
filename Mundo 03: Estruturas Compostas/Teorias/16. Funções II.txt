@@ -1,0 +1,14 @@
+No PY, há três formas de se obter uma ajuda em determinado método/função, o que
+o diferencia de grande parte das linguagens é sua ajuda interativa.
+
+    ← help(print)
+    Responsável por auxiliar na recordação dos parâmetros solicitados
+    (requeridos e opcionais).
+
+    ← print(print.__doc__)
+    Similar ao help, porém está entrando em desuso.
+
+Além dessas duas documentações, temos também as DOCSTRINGS – basicamente, uma
+string de documentação/manual.
+
+SEE EXAMPLES: http://twixar.me/04R1

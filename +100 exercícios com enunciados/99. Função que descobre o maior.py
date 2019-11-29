@@ -2,9 +2,10 @@
 # parâmetros com valores inteiros. Seu programa tem que analisar todos os
 # valores e dizer qual deles é o maior.
 
+from time import sleep
+
 
 def maior(* núm):
-    from time import sleep
     contador = maior = 0
     print('-=' * 30)
     print('Analisando os valores passados...')
