@@ -55,3 +55,7 @@ Salva o arquivo em um diretório do servidor web e grava só o caminho relativo
 no banco, isso é boas práticas.
 
 RANDOM: Numa comparação bem grotesca a app do DJ seria o pacote do Java.
+
+O que são CBV e FBV sucetivamente?
+São duas formas diferentes de se escrever um CRUD utilizando o Django, CBV é
+escrito baseado em classes, enquanto FBV em funções.
